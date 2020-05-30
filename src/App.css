@@ -1,5 +1,55 @@
+@font-face {
+  font-family: "Akkurat";
+  src: url("typography/Akkurat-Normal.eot");
+  src:
+  url("typography/Akkurat-Normal.ttf") format('truetype'),
+  url("typography/Akkurat-Normal.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Akkurat";
+  src: url("typography/Akkurat-Bold.eot");
+  src:
+  url("typography/Akkurat-Bold.ttf") format('truetype'),
+  url("typography/Akkurat-Bold.woff") format('woff');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Akkurat";
+  src: url("typography/Akkurat-Normal-Italic.eot");
+  src:
+  url("typography/Akkurat-Normal-Italic.ttf") format('truetype'),
+  url("typography/Akkurat-Normal-Italic.woff") format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Akkurat";
+  src: url("typography/Akkurat-Bold-Italic.eot");
+  src:
+  url("typography/Akkurat-Bold-Italic.ttf") format('truetype'),
+  url("typography/Akkurat-Bold-Italic.woff") format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
 .App {
   text-align: center;
+  color: #222629;
+}
+
+.description {
+  font-family: 'Akkurat', Helvetica, Arial, sans-serif;
+  font-size: 21px;
+}
+
+.georgia {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .App-logo {
@@ -7,11 +57,162 @@
   pointer-events: none;
 }
 
+img {
+  max-width: 100%;
+  overflow: visible;
+}
+
+.nav-logo {
+  padding: 1.5rem 1rem;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.highlighter {
+  background-color: #7DD8EF80;
+}
+
+.satellite {
+  width: 555px;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbar-toggler {
+  float: right;
+}
+
+.col {
+  vertical-align: middle;
+}
+
+#examples h2 {
+  margin-bottom: 43px;
+}
+
+.interlude {
+  text-align: center;
+  border-top: 1px solid #50B9D3;
+  border-bottom: 1px solid #50B9D3;
+  color: #222629;
+  margin-top: 58px;
+  margin-bottom: 58px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 28px;
+}
+
+.how-it-works {
+  background-color: #E8F7FA;
+  margin-top: 122px;
+}
+
+.how-it-title {
+  margin-top: 50px;
+}
+
+.bullet {
+  margin-right: 8px;
+  margin-bottom: 18px;
+}
+
+.case-study {
+  background: linear-gradient(#FFF, #EDF2F5);
+  border-top: 1px solid #D2DFE8;
+}
+
+p.how-it.description {
+  width: 95%;
+}
+
+.overflowing {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.comparisons {
+  margin-top: 94px;
+  margin-bottom: 39px;
+}
+
+.clients {
+  margin-top: -57px;
+}
+
+.roi {
+  margin-top: 8px;
+  margin-bottom: 85px;
+}
+
+.fireside-roi {
+  color: #FF6161;
+  text-decoration: underline;
+}
+
+.avinew-roi {
+  color: #4D48BD;
+  text-decoration: underline;
+}
+
+.n2uitive-roi {
+  color: #0E929F;
+  text-decoration: underline;
+}
+
+.contact-area {
+  background-color: #E8F7FA;
+  padding-top: 100px;
+  padding-bottom: 900px;
+}
+
+.contact-boxes {
+  padding-top: 49px;
+  font-size: 27px;
+}
+
+.contact-boxes p{
+  width: 80%;
+}
+
+.contact-buttons {
+  padding-top: 7px;
+}
+
+.contact-buttons p {
+  font-size: 16px;
+  font-family: 'Akkurat', Hevletica, Arial, sans-serif;
+  font-weight: bold;
+  color: #FFF;
+  background-color: #50B9D3;
+  padding: 8px 30px 8px 30px;
+  width: 80px;
+  border: 1px solid #36A7C4;
+  border-radius: 88px;
+  box-shadow: 0px 0px 7px #00CBFF54;
+}
+
+.jagged {
+  padding-top: 63px;
+}
+
+
+
+@media (min-width: 1200px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1080px !important;
+}
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;
