@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/small-tweaks/static/css/main.c475929c.chunk.css",
+    "main.js": "/small-tweaks/static/js/main.b547ce2a.chunk.js",
+    "main.js.map": "/small-tweaks/static/js/main.b547ce2a.chunk.js.map",
+    "runtime-main.js": "/small-tweaks/static/js/runtime-main.92d15932.js",
+    "runtime-main.js.map": "/small-tweaks/static/js/runtime-main.92d15932.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/small-tweaks/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.5b35737c.chunk.js": "/small-tweaks/static/js/2.5b35737c.chunk.js",
+    "static/js/2.5b35737c.chunk.js.map": "/small-tweaks/static/js/2.5b35737c.chunk.js.map",
+    "index.html": "/small-tweaks/index.html",
+    "precache-manifest.69f7ba78d188257095044089a7ad978d.js": "/small-tweaks/precache-manifest.69f7ba78d188257095044089a7ad978d.js",
+    "service-worker.js": "/small-tweaks/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/small-tweaks/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.c475929c.chunk.css.map": "/small-tweaks/static/css/main.c475929c.chunk.css.map",
+    "static/js/2.5b35737c.chunk.js.LICENSE.txt": "/small-tweaks/static/js/2.5b35737c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/small-tweaks/static/media/Akkurat-Normal.b750c9df.eot",
+    "static/media/avinew-comparison@2x.png": "/small-tweaks/static/media/avinew-comparison@2x.518d1d74.png",
+    "static/media/avinew-logo@2x.png": "/small-tweaks/static/media/avinew-logo@2x.55c55e4c.png",
+    "static/media/avinew-quote@2x.png": "/small-tweaks/static/media/avinew-quote@2x.3065b585.png",
+    "static/media/fireside-comparison@2x.png": "/small-tweaks/static/media/fireside-comparison@2x.3d615e37.png",
+    "static/media/fireside-quote@2x.png": "/small-tweaks/static/media/fireside-quote@2x.ec0ed5b7.png",
+    "static/media/fireside@2x.png": "/small-tweaks/static/media/fireside@2x.82f27013.png",
+    "static/media/hero-graphic@2x.png": "/small-tweaks/static/media/hero-graphic@2x.701145c9.png",
+    "static/media/implement-illustration@2x.png": "/small-tweaks/static/media/implement-illustration@2x.41112c83.png",
+    "static/media/logo.svg": "/small-tweaks/static/media/logo.20e34e4d.svg",
+    "static/media/n2uitive-comparison@2x.png": "/small-tweaks/static/media/n2uitive-comparison@2x.181f794b.png",
+    "static/media/n2uitive-quote@2x.png": "/small-tweaks/static/media/n2uitive-quote@2x.16874181.png",
+    "static/media/n2uitive@2x.png": "/small-tweaks/static/media/n2uitive@2x.8230269c.png",
+    "static/media/prototype-illustration@2x.png": "/small-tweaks/static/media/prototype-illustration@2x.31f3c284.png",
+    "static/media/research-illustration@2x.png": "/small-tweaks/static/media/research-illustration@2x.82ea1af6.png",
+    "static/media/satellite-illustration@2x.png": "/small-tweaks/static/media/satellite-illustration@2x.8022c60d.png",
+    "static/media/sears-illustration@2x.png": "/small-tweaks/static/media/sears-illustration@2x.b7798085.png",
+    "static/media/shades-of-blue-illustration@2x.png": "/small-tweaks/static/media/shades-of-blue-illustration@2x.93d941c3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92d15932.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.5b35737c.chunk.js",
+    "static/css/main.c475929c.chunk.css",
+    "static/js/main.b547ce2a.chunk.js"
+  ]
+}
