@@ -38,6 +38,10 @@
   font-style: italic;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
   color: #222629;
@@ -57,26 +61,24 @@
   pointer-events: none;
 }
 
+.hero-image {
+  margin-top: 60px;
+}
+
 img {
   max-width: 100%;
   overflow: visible;
+  height: auto;
 }
 
-.nav-logo {
+/*.nav-logo {
   padding: 1.5rem 1rem;
-}
-
-.hero-image {
-  width: 100%;
-}
+}*/
 
 .highlighter {
   background-color: #7DD8EF80;
 }
 
-.satellite {
-  width: 555px;
-}
 
 .navbar {
   width: 100%;
@@ -129,14 +131,14 @@ p.how-it.description {
   width: 95%;
 }
 
-.overflowing {
+/*.overflowing {
   margin-left: 50%;
   transform: translateX(-50%);
-}
+}*/
 
 .comparisons {
   margin-top: 94px;
-  margin-bottom: 39px;
+  margin-bottom: 49px;
 }
 
 .clients {
@@ -182,7 +184,7 @@ p.how-it.description {
   padding-top: 7px;
 }
 
-.contact-buttons p {
+p.contact-button {
   font-size: 16px;
   font-family: 'Akkurat', Hevletica, Arial, sans-serif;
   font-weight: bold;
@@ -213,6 +215,9 @@ p.how-it.description {
   }
 }
 
+.header {
+  width: 100%;
+}
 
 .App-header {
   background-color: #282c34;
