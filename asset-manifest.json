@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/small-tweaks/static/css/main.4881ec07.chunk.css",
-    "main.js": "/small-tweaks/static/js/main.1b317898.chunk.js",
-    "main.js.map": "/small-tweaks/static/js/main.1b317898.chunk.js.map",
+    "main.css": "/small-tweaks/static/css/main.1273dabb.chunk.css",
+    "main.js": "/small-tweaks/static/js/main.e7e0ba1b.chunk.js",
+    "main.js.map": "/small-tweaks/static/js/main.e7e0ba1b.chunk.js.map",
     "runtime-main.js": "/small-tweaks/static/js/runtime-main.92d15932.js",
     "runtime-main.js.map": "/small-tweaks/static/js/runtime-main.92d15932.js.map",
     "static/css/2.af3c1da9.chunk.css": "/small-tweaks/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.aec4ead4.chunk.js": "/small-tweaks/static/js/2.aec4ead4.chunk.js",
-    "static/js/2.aec4ead4.chunk.js.map": "/small-tweaks/static/js/2.aec4ead4.chunk.js.map",
+    "static/js/2.8503f764.chunk.js": "/small-tweaks/static/js/2.8503f764.chunk.js",
+    "static/js/2.8503f764.chunk.js.map": "/small-tweaks/static/js/2.8503f764.chunk.js.map",
     "index.html": "/small-tweaks/index.html",
-    "precache-manifest.d93ebb507dc7482b6b3191527c1a49f0.js": "/small-tweaks/precache-manifest.d93ebb507dc7482b6b3191527c1a49f0.js",
+    "precache-manifest.2e321d64752aa1f0fe0ef01801c32477.js": "/small-tweaks/precache-manifest.2e321d64752aa1f0fe0ef01801c32477.js",
     "service-worker.js": "/small-tweaks/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/small-tweaks/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.4881ec07.chunk.css.map": "/small-tweaks/static/css/main.4881ec07.chunk.css.map",
-    "static/js/2.aec4ead4.chunk.js.LICENSE.txt": "/small-tweaks/static/js/2.aec4ead4.chunk.js.LICENSE.txt",
+    "static/css/main.1273dabb.chunk.css.map": "/small-tweaks/static/css/main.1273dabb.chunk.css.map",
+    "static/js/2.8503f764.chunk.js.LICENSE.txt": "/small-tweaks/static/js/2.8503f764.chunk.js.LICENSE.txt",
     "static/media/App.css": "/small-tweaks/static/media/Akkurat-Normal.b750c9df.eot",
     "static/media/avinew-comparison@2x.png": "/small-tweaks/static/media/avinew-comparison@2x.518d1d74.png",
     "static/media/avinew-logo@2x.png": "/small-tweaks/static/media/avinew-logo@2x.55c55e4c.png",
@@ -36,8 +36,8 @@
   "entrypoints": [
     "static/js/runtime-main.92d15932.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.aec4ead4.chunk.js",
-    "static/css/main.4881ec07.chunk.css",
-    "static/js/main.1b317898.chunk.js"
+    "static/js/2.8503f764.chunk.js",
+    "static/css/main.1273dabb.chunk.css",
+    "static/js/main.e7e0ba1b.chunk.js"
   ]
 }
