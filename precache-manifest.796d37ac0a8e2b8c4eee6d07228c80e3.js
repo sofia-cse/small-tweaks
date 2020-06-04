@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b5b3d7ca361bcebaf4deca94040fba4",
+    "revision": "b9357ebdad60b9b81526d2631ff6aef6",
     "url": "/small-tweaks/index.html"
   },
   {
-    "revision": "f41349e4849b6685471b",
+    "revision": "f9de09176891c6c7f157",
     "url": "/small-tweaks/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "542834646c7d34e1611e",
-    "url": "/small-tweaks/static/css/main.5be44557.chunk.css"
+    "revision": "bdf06497e343477f3f8d",
+    "url": "/small-tweaks/static/css/main.876bd734.chunk.css"
   },
   {
-    "revision": "f41349e4849b6685471b",
-    "url": "/small-tweaks/static/js/2.7c53059f.chunk.js"
+    "revision": "f9de09176891c6c7f157",
+    "url": "/small-tweaks/static/js/2.77732b53.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/small-tweaks/static/js/2.7c53059f.chunk.js.LICENSE.txt"
+    "url": "/small-tweaks/static/js/2.77732b53.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "542834646c7d34e1611e",
-    "url": "/small-tweaks/static/js/main.a643d486.chunk.js"
+    "revision": "bdf06497e343477f3f8d",
+    "url": "/small-tweaks/static/js/main.a7e61e00.chunk.js"
   },
   {
     "revision": "3622316cb1ab40a90653",
@@ -76,8 +76,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/small-tweaks/static/media/Akkurat-Normal.b750c9df.eot"
   },
   {
-    "revision": "518d1d74ece66cd3b88da2994b2fd17f",
-    "url": "/small-tweaks/static/media/avinew-comparison@2x.518d1d74.png"
+    "revision": "7b1af0229227a7301f69eeb6958ac73c",
+    "url": "/small-tweaks/static/media/avinew-after@2x.7b1af022.png"
+  },
+  {
+    "revision": "c7216ae7632af6272f15edfc9b6e767b",
+    "url": "/small-tweaks/static/media/avinew-before@2x.c7216ae7.png"
   },
   {
     "revision": "55c55e4c81917039e7bdf21e5a9d45ea",
@@ -88,12 +92,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/small-tweaks/static/media/avinew-quote@2x.3065b585.png"
   },
   {
-    "revision": "50ff83b1c922eff7e7e56590d984ec3b",
-    "url": "/small-tweaks/static/media/chart-foreground@2x.50ff83b1.png"
+    "revision": "b72d1cb2e5260f4c6a3e5f2aa6215eb0",
+    "url": "/small-tweaks/static/media/circled-graphic@2x.b72d1cb2.png"
   },
   {
-    "revision": "3d615e37ee1beff51d26e31d6b0df23e",
-    "url": "/small-tweaks/static/media/fireside-comparison@2x.3d615e37.png"
+    "revision": "fb96f9d9c0ab3d1024d34c9005667e3d",
+    "url": "/small-tweaks/static/media/fireside-after@2x.fb96f9d9.png"
+  },
+  {
+    "revision": "2da52c48af282a8970c7f3323e3921a2",
+    "url": "/small-tweaks/static/media/fireside-before@2x.2da52c48.png"
   },
   {
     "revision": "ec0ed5b7a8cb13f7dd13378397ee446b",
@@ -104,8 +112,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/small-tweaks/static/media/fireside@2x.82f27013.png"
   },
   {
-    "revision": "c9bc14a473fee858d1e50a6b90bdd266",
-    "url": "/small-tweaks/static/media/hero-background.c9bc14a4.png"
+    "revision": "9e596beae20b4830106820ee09bfeba6",
+    "url": "/small-tweaks/static/media/hero-chart@2x.9e596bea.png"
   },
   {
     "revision": "41112c83af836a3d6ad43e7b1851e75c",
@@ -114,6 +122,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "20e34e4dc427de567cbb7087f4786ee5",
     "url": "/small-tweaks/static/media/logo.20e34e4d.svg"
+  },
+  {
+    "revision": "6d01d6f3bfbe22fbe8a8f96b513cdcb7",
+    "url": "/small-tweaks/static/media/n2uitive-after@2x.6d01d6f3.png"
+  },
+  {
+    "revision": "0365c3502bdb9ac3a42aeec0ab9ec934",
+    "url": "/small-tweaks/static/media/n2uitive-before@2x.0365c350.png"
   },
   {
     "revision": "181f794b0622f42188d0baad95a2f185",
