@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c8175562c8221c97a3407b169513949",
+    "revision": "027d03cae5684ae3036c333faa8996e3",
     "url": "/small-tweaks/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/small-tweaks/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "d00b5947de7046dad23d",
-    "url": "/small-tweaks/static/css/main.29ce820b.chunk.css"
+    "revision": "9ea4e74f014e6077a635",
+    "url": "/small-tweaks/static/css/main.e03cf450.chunk.css"
   },
   {
     "revision": "9a78eca8d5443b98033a",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/small-tweaks/static/js/2.c2744eb8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d00b5947de7046dad23d",
-    "url": "/small-tweaks/static/js/main.3d1c0d0a.chunk.js"
+    "revision": "9ea4e74f014e6077a635",
+    "url": "/small-tweaks/static/js/main.b1603f76.chunk.js"
   },
   {
     "revision": "3622316cb1ab40a90653",
@@ -90,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3065b5859df3dc186ac5d5d193c49cfc",
     "url": "/small-tweaks/static/media/avinew-quote@2x.3065b585.png"
+  },
+  {
+    "revision": "8c4ad1427595c4f30a27c7226b14190d",
+    "url": "/small-tweaks/static/media/chart-background@2x.8c4ad142.png"
   },
   {
     "revision": "b72d1cb2e5260f4c6a3e5f2aa6215eb0",
