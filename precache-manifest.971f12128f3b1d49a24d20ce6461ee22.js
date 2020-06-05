@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "027d03cae5684ae3036c333faa8996e3",
+    "revision": "d6f49ddfb8333ef1a9fb261be89f329b",
     "url": "/small-tweaks/index.html"
   },
   {
-    "revision": "9a78eca8d5443b98033a",
+    "revision": "0c748c5c06ef89d108ed",
     "url": "/small-tweaks/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "9ea4e74f014e6077a635",
-    "url": "/small-tweaks/static/css/main.e03cf450.chunk.css"
+    "revision": "b05e633a2efb00ded568",
+    "url": "/small-tweaks/static/css/main.05a5d727.chunk.css"
   },
   {
-    "revision": "9a78eca8d5443b98033a",
-    "url": "/small-tweaks/static/js/2.c2744eb8.chunk.js"
+    "revision": "0c748c5c06ef89d108ed",
+    "url": "/small-tweaks/static/js/2.43ce4b80.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/small-tweaks/static/js/2.c2744eb8.chunk.js.LICENSE.txt"
+    "url": "/small-tweaks/static/js/2.43ce4b80.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9ea4e74f014e6077a635",
-    "url": "/small-tweaks/static/js/main.b1603f76.chunk.js"
+    "revision": "b05e633a2efb00ded568",
+    "url": "/small-tweaks/static/js/main.b673ed4e.chunk.js"
   },
   {
     "revision": "3622316cb1ab40a90653",
@@ -156,8 +156,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/small-tweaks/static/media/satellite-illustration@2x.8022c60d.png"
   },
   {
-    "revision": "b7798085745a5e519f7e17ff4f500f79",
-    "url": "/small-tweaks/static/media/sears-illustration@2x.b7798085.png"
+    "revision": "f2df8082e32528046cc77f636da6895f",
+    "url": "/small-tweaks/static/media/sears-illustration@2x.f2df8082.png"
   },
   {
     "revision": "93d941c362c11a16668cdc6d000548f4",

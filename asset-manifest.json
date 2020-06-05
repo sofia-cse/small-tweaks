@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/small-tweaks/static/css/main.e03cf450.chunk.css",
-    "main.js": "/small-tweaks/static/js/main.b1603f76.chunk.js",
-    "main.js.map": "/small-tweaks/static/js/main.b1603f76.chunk.js.map",
+    "main.css": "/small-tweaks/static/css/main.05a5d727.chunk.css",
+    "main.js": "/small-tweaks/static/js/main.b673ed4e.chunk.js",
+    "main.js.map": "/small-tweaks/static/js/main.b673ed4e.chunk.js.map",
     "runtime-main.js": "/small-tweaks/static/js/runtime-main.e34255b3.js",
     "runtime-main.js.map": "/small-tweaks/static/js/runtime-main.e34255b3.js.map",
     "static/css/2.af3c1da9.chunk.css": "/small-tweaks/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.c2744eb8.chunk.js": "/small-tweaks/static/js/2.c2744eb8.chunk.js",
-    "static/js/2.c2744eb8.chunk.js.map": "/small-tweaks/static/js/2.c2744eb8.chunk.js.map",
+    "static/js/2.43ce4b80.chunk.js": "/small-tweaks/static/js/2.43ce4b80.chunk.js",
+    "static/js/2.43ce4b80.chunk.js.map": "/small-tweaks/static/js/2.43ce4b80.chunk.js.map",
     "index.html": "/small-tweaks/index.html",
-    "precache-manifest.00f3984e2b91b4c8becac799ed93a04c.js": "/small-tweaks/precache-manifest.00f3984e2b91b4c8becac799ed93a04c.js",
+    "precache-manifest.971f12128f3b1d49a24d20ce6461ee22.js": "/small-tweaks/precache-manifest.971f12128f3b1d49a24d20ce6461ee22.js",
     "service-worker.js": "/small-tweaks/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/small-tweaks/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.e03cf450.chunk.css.map": "/small-tweaks/static/css/main.e03cf450.chunk.css.map",
-    "static/js/2.c2744eb8.chunk.js.LICENSE.txt": "/small-tweaks/static/js/2.c2744eb8.chunk.js.LICENSE.txt",
+    "static/css/main.05a5d727.chunk.css.map": "/small-tweaks/static/css/main.05a5d727.chunk.css.map",
+    "static/js/2.43ce4b80.chunk.js.LICENSE.txt": "/small-tweaks/static/js/2.43ce4b80.chunk.js.LICENSE.txt",
     "static/media/App.css": "/small-tweaks/static/media/circled-graphic@2x.b72d1cb2.png",
     "static/media/avinew-after@2x.png": "/small-tweaks/static/media/avinew-after@2x.7b1af022.png",
     "static/media/avinew-before@2x.png": "/small-tweaks/static/media/avinew-before@2x.c7216ae7.png",
@@ -33,14 +33,14 @@
     "static/media/prototype-illustration@2x.png": "/small-tweaks/static/media/prototype-illustration@2x.31f3c284.png",
     "static/media/research-illustration@2x.png": "/small-tweaks/static/media/research-illustration@2x.82ea1af6.png",
     "static/media/satellite-illustration@2x.png": "/small-tweaks/static/media/satellite-illustration@2x.8022c60d.png",
-    "static/media/sears-illustration@2x.png": "/small-tweaks/static/media/sears-illustration@2x.b7798085.png",
+    "static/media/sears-illustration@2x.png": "/small-tweaks/static/media/sears-illustration@2x.f2df8082.png",
     "static/media/shades-of-blue-illustration@2x.png": "/small-tweaks/static/media/shades-of-blue-illustration@2x.93d941c3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e34255b3.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.c2744eb8.chunk.js",
-    "static/css/main.e03cf450.chunk.css",
-    "static/js/main.b1603f76.chunk.js"
+    "static/js/2.43ce4b80.chunk.js",
+    "static/css/main.05a5d727.chunk.css",
+    "static/js/main.b673ed4e.chunk.js"
   ]
 }
