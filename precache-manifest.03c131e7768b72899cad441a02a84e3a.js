@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6f49ddfb8333ef1a9fb261be89f329b",
+    "revision": "ab7e1897ef4e3ced221e6378288a06cc",
     "url": "/small-tweaks/index.html"
   },
   {
-    "revision": "0c748c5c06ef89d108ed",
+    "revision": "bc8b3956772285f5abcd",
     "url": "/small-tweaks/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "b05e633a2efb00ded568",
-    "url": "/small-tweaks/static/css/main.05a5d727.chunk.css"
+    "revision": "01d1b587c3bd1738c468",
+    "url": "/small-tweaks/static/css/main.cc3bcf01.chunk.css"
   },
   {
-    "revision": "0c748c5c06ef89d108ed",
-    "url": "/small-tweaks/static/js/2.43ce4b80.chunk.js"
+    "revision": "bc8b3956772285f5abcd",
+    "url": "/small-tweaks/static/js/2.b55ac327.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/small-tweaks/static/js/2.43ce4b80.chunk.js.LICENSE.txt"
+    "url": "/small-tweaks/static/js/2.b55ac327.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b05e633a2efb00ded568",
-    "url": "/small-tweaks/static/js/main.b673ed4e.chunk.js"
+    "revision": "01d1b587c3bd1738c468",
+    "url": "/small-tweaks/static/js/main.1c97bfe5.chunk.js"
   },
   {
     "revision": "3622316cb1ab40a90653",
@@ -92,12 +92,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/small-tweaks/static/media/avinew-quote@2x.3065b585.png"
   },
   {
+    "revision": "36a4de2b94df9d0d095a9219919aa2f1",
+    "url": "/small-tweaks/static/media/brooke-lias@2x.36a4de2b.png"
+  },
+  {
     "revision": "8c4ad1427595c4f30a27c7226b14190d",
     "url": "/small-tweaks/static/media/chart-background@2x.8c4ad142.png"
   },
   {
     "revision": "b72d1cb2e5260f4c6a3e5f2aa6215eb0",
     "url": "/small-tweaks/static/media/circled-graphic@2x.b72d1cb2.png"
+  },
+  {
+    "revision": "aa28d440ff8bdfcecb8250c17f2bde6a",
+    "url": "/small-tweaks/static/media/dave-rich@2x.aa28d440.png"
   },
   {
     "revision": "fb96f9d9c0ab3d1024d34c9005667e3d",
@@ -162,5 +170,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "93d941c362c11a16668cdc6d000548f4",
     "url": "/small-tweaks/static/media/shades-of-blue-illustration@2x.93d941c3.png"
+  },
+  {
+    "revision": "c59c49fc131ba0526cc5eeabc3ef4d8d",
+    "url": "/small-tweaks/static/media/stone-strickland@2x.c59c49fc.png"
   }
 ]);

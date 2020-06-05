@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/small-tweaks/static/css/main.05a5d727.chunk.css",
-    "main.js": "/small-tweaks/static/js/main.b673ed4e.chunk.js",
-    "main.js.map": "/small-tweaks/static/js/main.b673ed4e.chunk.js.map",
+    "main.css": "/small-tweaks/static/css/main.cc3bcf01.chunk.css",
+    "main.js": "/small-tweaks/static/js/main.1c97bfe5.chunk.js",
+    "main.js.map": "/small-tweaks/static/js/main.1c97bfe5.chunk.js.map",
     "runtime-main.js": "/small-tweaks/static/js/runtime-main.e34255b3.js",
     "runtime-main.js.map": "/small-tweaks/static/js/runtime-main.e34255b3.js.map",
     "static/css/2.af3c1da9.chunk.css": "/small-tweaks/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.43ce4b80.chunk.js": "/small-tweaks/static/js/2.43ce4b80.chunk.js",
-    "static/js/2.43ce4b80.chunk.js.map": "/small-tweaks/static/js/2.43ce4b80.chunk.js.map",
+    "static/js/2.b55ac327.chunk.js": "/small-tweaks/static/js/2.b55ac327.chunk.js",
+    "static/js/2.b55ac327.chunk.js.map": "/small-tweaks/static/js/2.b55ac327.chunk.js.map",
     "index.html": "/small-tweaks/index.html",
-    "precache-manifest.971f12128f3b1d49a24d20ce6461ee22.js": "/small-tweaks/precache-manifest.971f12128f3b1d49a24d20ce6461ee22.js",
+    "precache-manifest.03c131e7768b72899cad441a02a84e3a.js": "/small-tweaks/precache-manifest.03c131e7768b72899cad441a02a84e3a.js",
     "service-worker.js": "/small-tweaks/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/small-tweaks/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.05a5d727.chunk.css.map": "/small-tweaks/static/css/main.05a5d727.chunk.css.map",
-    "static/js/2.43ce4b80.chunk.js.LICENSE.txt": "/small-tweaks/static/js/2.43ce4b80.chunk.js.LICENSE.txt",
+    "static/css/main.cc3bcf01.chunk.css.map": "/small-tweaks/static/css/main.cc3bcf01.chunk.css.map",
+    "static/js/2.b55ac327.chunk.js.LICENSE.txt": "/small-tweaks/static/js/2.b55ac327.chunk.js.LICENSE.txt",
     "static/media/App.css": "/small-tweaks/static/media/circled-graphic@2x.b72d1cb2.png",
     "static/media/avinew-after@2x.png": "/small-tweaks/static/media/avinew-after@2x.7b1af022.png",
     "static/media/avinew-before@2x.png": "/small-tweaks/static/media/avinew-before@2x.c7216ae7.png",
     "static/media/avinew-logo@2x.png": "/small-tweaks/static/media/avinew-logo@2x.55c55e4c.png",
     "static/media/avinew-quote@2x.png": "/small-tweaks/static/media/avinew-quote@2x.3065b585.png",
+    "static/media/brooke-lias@2x.png": "/small-tweaks/static/media/brooke-lias@2x.36a4de2b.png",
+    "static/media/dave-rich@2x.png": "/small-tweaks/static/media/dave-rich@2x.aa28d440.png",
     "static/media/fireside-after@2x.png": "/small-tweaks/static/media/fireside-after@2x.fb96f9d9.png",
     "static/media/fireside-before@2x.png": "/small-tweaks/static/media/fireside-before@2x.2da52c48.png",
     "static/media/fireside-quote@2x.png": "/small-tweaks/static/media/fireside-quote@2x.ec0ed5b7.png",
@@ -34,13 +36,14 @@
     "static/media/research-illustration@2x.png": "/small-tweaks/static/media/research-illustration@2x.82ea1af6.png",
     "static/media/satellite-illustration@2x.png": "/small-tweaks/static/media/satellite-illustration@2x.8022c60d.png",
     "static/media/sears-illustration@2x.png": "/small-tweaks/static/media/sears-illustration@2x.f2df8082.png",
-    "static/media/shades-of-blue-illustration@2x.png": "/small-tweaks/static/media/shades-of-blue-illustration@2x.93d941c3.png"
+    "static/media/shades-of-blue-illustration@2x.png": "/small-tweaks/static/media/shades-of-blue-illustration@2x.93d941c3.png",
+    "static/media/stone-strickland@2x.png": "/small-tweaks/static/media/stone-strickland@2x.c59c49fc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e34255b3.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.43ce4b80.chunk.js",
-    "static/css/main.05a5d727.chunk.css",
-    "static/js/main.b673ed4e.chunk.js"
+    "static/js/2.b55ac327.chunk.js",
+    "static/css/main.cc3bcf01.chunk.css",
+    "static/js/main.1c97bfe5.chunk.js"
   ]
 }
