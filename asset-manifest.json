@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/small-tweaks/static/css/main.65e362bc.chunk.css",
-    "main.js": "/small-tweaks/static/js/main.9617c16d.chunk.js",
-    "main.js.map": "/small-tweaks/static/js/main.9617c16d.chunk.js.map",
+    "main.js": "/small-tweaks/static/js/main.d4ce1119.chunk.js",
+    "main.js.map": "/small-tweaks/static/js/main.d4ce1119.chunk.js.map",
     "runtime-main.js": "/small-tweaks/static/js/runtime-main.e34255b3.js",
     "runtime-main.js.map": "/small-tweaks/static/js/runtime-main.e34255b3.js.map",
     "static/css/2.af3c1da9.chunk.css": "/small-tweaks/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.43ce4b80.chunk.js": "/small-tweaks/static/js/2.43ce4b80.chunk.js",
-    "static/js/2.43ce4b80.chunk.js.map": "/small-tweaks/static/js/2.43ce4b80.chunk.js.map",
+    "static/js/2.aff44e57.chunk.js": "/small-tweaks/static/js/2.aff44e57.chunk.js",
+    "static/js/2.aff44e57.chunk.js.map": "/small-tweaks/static/js/2.aff44e57.chunk.js.map",
     "index.html": "/small-tweaks/index.html",
-    "precache-manifest.298e3eb71a1299cebe07e8d65a863c82.js": "/small-tweaks/precache-manifest.298e3eb71a1299cebe07e8d65a863c82.js",
+    "precache-manifest.acb0c051c1719a0cdb7b6b70cc895589.js": "/small-tweaks/precache-manifest.acb0c051c1719a0cdb7b6b70cc895589.js",
     "service-worker.js": "/small-tweaks/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/small-tweaks/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.65e362bc.chunk.css.map": "/small-tweaks/static/css/main.65e362bc.chunk.css.map",
-    "static/js/2.43ce4b80.chunk.js.LICENSE.txt": "/small-tweaks/static/js/2.43ce4b80.chunk.js.LICENSE.txt",
+    "static/js/2.aff44e57.chunk.js.LICENSE.txt": "/small-tweaks/static/js/2.aff44e57.chunk.js.LICENSE.txt",
     "static/media/App.css": "/small-tweaks/static/media/circled-graphic@2x.b72d1cb2.png",
     "static/media/avinew-after@2x.png": "/small-tweaks/static/media/avinew-after@2x.7b1af022.png",
     "static/media/avinew-before@2x.png": "/small-tweaks/static/media/avinew-before@2x.c7216ae7.png",
@@ -39,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.e34255b3.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.43ce4b80.chunk.js",
+    "static/js/2.aff44e57.chunk.js",
     "static/css/main.65e362bc.chunk.css",
-    "static/js/main.9617c16d.chunk.js"
+    "static/js/main.d4ce1119.chunk.js"
   ]
 }
