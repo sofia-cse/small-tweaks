@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/small-tweaks/static/css/main.c7b86b20.chunk.css",
+    "main.css": "/small-tweaks/static/css/main.7fb58406.chunk.css",
     "main.js": "/small-tweaks/static/js/main.c6d63b43.chunk.js",
     "main.js.map": "/small-tweaks/static/js/main.c6d63b43.chunk.js.map",
     "runtime-main.js": "/small-tweaks/static/js/runtime-main.e34255b3.js",
@@ -9,10 +9,10 @@
     "static/js/2.43ce4b80.chunk.js": "/small-tweaks/static/js/2.43ce4b80.chunk.js",
     "static/js/2.43ce4b80.chunk.js.map": "/small-tweaks/static/js/2.43ce4b80.chunk.js.map",
     "index.html": "/small-tweaks/index.html",
-    "precache-manifest.a51c87caac04d6c3bdc1763ec6c59c53.js": "/small-tweaks/precache-manifest.a51c87caac04d6c3bdc1763ec6c59c53.js",
+    "precache-manifest.e406f6ed43aec8493a591e0ce8b218ad.js": "/small-tweaks/precache-manifest.e406f6ed43aec8493a591e0ce8b218ad.js",
     "service-worker.js": "/small-tweaks/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/small-tweaks/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.c7b86b20.chunk.css.map": "/small-tweaks/static/css/main.c7b86b20.chunk.css.map",
+    "static/css/main.7fb58406.chunk.css.map": "/small-tweaks/static/css/main.7fb58406.chunk.css.map",
     "static/js/2.43ce4b80.chunk.js.LICENSE.txt": "/small-tweaks/static/js/2.43ce4b80.chunk.js.LICENSE.txt",
     "static/media/App.css": "/small-tweaks/static/media/circled-graphic@2x.b72d1cb2.png",
     "static/media/avinew-after@2x.png": "/small-tweaks/static/media/avinew-after@2x.7b1af022.png",
@@ -40,7 +40,7 @@
     "static/js/runtime-main.e34255b3.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.43ce4b80.chunk.js",
-    "static/css/main.c7b86b20.chunk.css",
+    "static/css/main.7fb58406.chunk.css",
     "static/js/main.c6d63b43.chunk.js"
   ]
 }

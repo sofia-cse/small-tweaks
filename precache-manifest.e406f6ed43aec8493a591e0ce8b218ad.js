@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0f31e4693a93594e37c4e863243663d4",
+    "revision": "e6e8db32cb7ee3c107de1790716100ad",
     "url": "/small-tweaks/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/small-tweaks/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "1cd124c55483431d4760",
-    "url": "/small-tweaks/static/css/main.c7b86b20.chunk.css"
+    "revision": "87fca192e071e120fdeb",
+    "url": "/small-tweaks/static/css/main.7fb58406.chunk.css"
   },
   {
     "revision": "0c748c5c06ef89d108ed",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/small-tweaks/static/js/2.43ce4b80.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1cd124c55483431d4760",
+    "revision": "87fca192e071e120fdeb",
     "url": "/small-tweaks/static/js/main.c6d63b43.chunk.js"
   },
   {
@@ -74,6 +74,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b750c9df60eeda3cbb66595d2508d56b",
     "url": "/small-tweaks/static/media/Akkurat-Normal.b750c9df.eot"
+  },
+  {
+    "revision": "8a556756263e0b4c135aad3855fb5a50",
+    "url": "/small-tweaks/static/media/GeorgiaPro-Semibold.8a556756.eot"
+  },
+  {
+    "revision": "c1260a02eee0472fbe17d74c19dfc1a7",
+    "url": "/small-tweaks/static/media/GeorgiaPro-Semibold.c1260a02.woff"
+  },
+  {
+    "revision": "f88a096de73899978533f16478a0d927",
+    "url": "/small-tweaks/static/media/GeorgiaPro-Semibold.f88a096d.ttf"
   },
   {
     "revision": "7b1af0229227a7301f69eeb6958ac73c",
