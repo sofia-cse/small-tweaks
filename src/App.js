@@ -23,7 +23,7 @@ import n2uitive from './img/n2uitive@2x.png';
 import compareArrow from './img/comparison-arrow@2x.png';
 import daveRich from './img/dave-rich@2x.png';
 import brookeLias from './img/brooke-lias@2x.png';
-import stoneStrickland from './img/stone-strickland@2x.png';
+//import stoneStrickland from './img/stone-strickland@2x.png';
 import './App.css';
 import SmallTweaksNavBar from './components/SmallTweaksNavBar';
 import Container from 'react-bootstrap/Container';

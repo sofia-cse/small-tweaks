@@ -54,13 +54,13 @@ refreshComponent(name,) {
 
     const templateId = 'template_IClyReLt';
     this.sendFeedback(templateId, {message_html: this.state.message, from_name: this.state.name, reply_to: this.state.email, phone: this.state.phone});
-    this.setState({ done: true})
+    
     }
 
   
     sendFeedback (templateId, variables) {
       window.emailjs.send("mailgun", 'template_IClyReLt', variables, "user_DAxRhCUOWyZbMpVlmpKOk").then(res => {
-        alert('Email successfully sent!');
+        this.setState({ done: true});
       })
       // Handle errors here however you like, or use a React error boundary
       .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
