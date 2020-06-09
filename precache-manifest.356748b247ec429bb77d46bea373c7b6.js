@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9a2dc34c787170f5911cc31241977a9",
+    "revision": "3678b6fb83443d7d8d0b03304def2208",
     "url": "/small-tweaks/index.html"
   },
   {
-    "revision": "0d6e7771c9ce3cf8bf36",
+    "revision": "fc4913f8080506274bb7",
     "url": "/small-tweaks/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "9649d5c8292063aad3f8",
-    "url": "/small-tweaks/static/css/main.eb327f99.chunk.css"
+    "revision": "2d3d8ca2c353d2a1b390",
+    "url": "/small-tweaks/static/css/main.6969698b.chunk.css"
   },
   {
-    "revision": "0d6e7771c9ce3cf8bf36",
-    "url": "/small-tweaks/static/js/2.aff44e57.chunk.js"
+    "revision": "fc4913f8080506274bb7",
+    "url": "/small-tweaks/static/js/2.838bca4a.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/small-tweaks/static/js/2.aff44e57.chunk.js.LICENSE.txt"
+    "url": "/small-tweaks/static/js/2.838bca4a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9649d5c8292063aad3f8",
-    "url": "/small-tweaks/static/js/main.c43e2746.chunk.js"
+    "revision": "2d3d8ca2c353d2a1b390",
+    "url": "/small-tweaks/static/js/main.19a74cfd.chunk.js"
   },
   {
     "revision": "3622316cb1ab40a90653",
