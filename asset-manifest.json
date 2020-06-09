@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.218bbed2.chunk.css",
-    "main.js": "/static/js/main.57ada0a1.chunk.js",
-    "main.js.map": "/static/js/main.57ada0a1.chunk.js.map",
+    "main.js": "/static/js/main.dc5303c7.chunk.js",
+    "main.js.map": "/static/js/main.dc5303c7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6fbbdaf3.js",
     "runtime-main.js.map": "/static/js/runtime-main.6fbbdaf3.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.b51e0759.chunk.js": "/static/js/2.b51e0759.chunk.js",
-    "static/js/2.b51e0759.chunk.js.map": "/static/js/2.b51e0759.chunk.js.map",
+    "static/js/2.70813d54.chunk.js": "/static/js/2.70813d54.chunk.js",
+    "static/js/2.70813d54.chunk.js.map": "/static/js/2.70813d54.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e3a69e165f7dcda68b99044c76f78ea2.js": "/precache-manifest.e3a69e165f7dcda68b99044c76f78ea2.js",
+    "precache-manifest.da152d3c1103e49ee9513c9f106353cb.js": "/precache-manifest.da152d3c1103e49ee9513c9f106353cb.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.218bbed2.chunk.css.map": "/static/css/main.218bbed2.chunk.css.map",
-    "static/js/2.b51e0759.chunk.js.LICENSE.txt": "/static/js/2.b51e0759.chunk.js.LICENSE.txt",
+    "static/js/2.70813d54.chunk.js.LICENSE.txt": "/static/js/2.70813d54.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/circled-graphic@2x.b72d1cb2.png",
     "static/media/avinew-after@2x.png": "/static/media/avinew-after@2x.7b1af022.png",
     "static/media/avinew-before@2x.png": "/static/media/avinew-before@2x.c7216ae7.png",
@@ -33,14 +33,13 @@
     "static/media/research-illustration@2x.png": "/static/media/research-illustration@2x.82ea1af6.png",
     "static/media/satellite-illustration@2x.png": "/static/media/satellite-illustration@2x.8022c60d.png",
     "static/media/sears-illustration@2x.png": "/static/media/sears-illustration@2x.f2df8082.png",
-    "static/media/shades-of-blue-illustration@2x.png": "/static/media/shades-of-blue-illustration@2x.93d941c3.png",
-    "static/media/stone-strickland@2x.png": "/static/media/stone-strickland@2x.3c1e9d93.png"
+    "static/media/shades-of-blue-illustration@2x.png": "/static/media/shades-of-blue-illustration@2x.93d941c3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6fbbdaf3.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.b51e0759.chunk.js",
+    "static/js/2.70813d54.chunk.js",
     "static/css/main.218bbed2.chunk.css",
-    "static/js/main.57ada0a1.chunk.js"
+    "static/js/main.dc5303c7.chunk.js"
   ]
 }
