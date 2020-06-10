@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactGA from 'react-ga';
 import heroForeground from './img/hero-chart@2x.png';
 import satellite from './img/satellite-illustration@2x.png';
 import shadesOfBlue from './img/shades-of-blue-illustration@2x.png';
@@ -35,7 +36,8 @@ import Contact1 from "./components/Contact1";
 import ContactForm2 from "./components/ContactForm2";
 import ContactForm3 from "./components/ContactForm3";
 
-
+ReactGA.initialize('UA-168952995-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 class App extends Component {
   constructor() {
@@ -48,6 +50,7 @@ class App extends Component {
     };
     this.hideComponent = this.hideComponent.bind(this);
   }
+
 
   hideComponent(name) {
     console.log(name);
