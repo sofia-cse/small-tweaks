@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.218bbed2.chunk.css",
-    "main.js": "/static/js/main.53e76cde.chunk.js",
-    "main.js.map": "/static/js/main.53e76cde.chunk.js.map",
+    "main.css": "/static/css/main.cef030e2.chunk.css",
+    "main.js": "/static/js/main.46ff4342.chunk.js",
+    "main.js.map": "/static/js/main.46ff4342.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6fbbdaf3.js",
     "runtime-main.js.map": "/static/js/runtime-main.6fbbdaf3.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
     "static/js/2.8d222c9c.chunk.js": "/static/js/2.8d222c9c.chunk.js",
     "static/js/2.8d222c9c.chunk.js.map": "/static/js/2.8d222c9c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.df1e8b14d3aef0c2395afcbf86cc51b3.js": "/precache-manifest.df1e8b14d3aef0c2395afcbf86cc51b3.js",
+    "precache-manifest.7476765d6cdbc3eba73a6b6c832aeac5.js": "/precache-manifest.7476765d6cdbc3eba73a6b6c832aeac5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.218bbed2.chunk.css.map": "/static/css/main.218bbed2.chunk.css.map",
+    "static/css/main.cef030e2.chunk.css.map": "/static/css/main.cef030e2.chunk.css.map",
     "static/js/2.8d222c9c.chunk.js.LICENSE.txt": "/static/js/2.8d222c9c.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/circled-graphic@2x.b72d1cb2.png",
     "static/media/avinew-after@2x.png": "/static/media/avinew-after@2x.7b1af022.png",
@@ -23,7 +23,7 @@
     "static/media/fireside-after@2x.png": "/static/media/fireside-after@2x.fb96f9d9.png",
     "static/media/fireside-before@2x.png": "/static/media/fireside-before@2x.2da52c48.png",
     "static/media/fireside@2x.png": "/static/media/fireside@2x.82f27013.png",
-    "static/media/hero-chart@2x.png": "/static/media/hero-chart@2x.9e596bea.png",
+    "static/media/hero-chart@2x.png": "/static/media/hero-chart@2x.c656c4b1.png",
     "static/media/implement-illustration@2x.png": "/static/media/implement-illustration@2x.41112c83.png",
     "static/media/logo.svg": "/static/media/logo.20e34e4d.svg",
     "static/media/n2uitive-after@2x.png": "/static/media/n2uitive-after@2x.6d01d6f3.png",
@@ -39,7 +39,7 @@
     "static/js/runtime-main.6fbbdaf3.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.8d222c9c.chunk.js",
-    "static/css/main.218bbed2.chunk.css",
-    "static/js/main.53e76cde.chunk.js"
+    "static/css/main.cef030e2.chunk.css",
+    "static/js/main.46ff4342.chunk.js"
   ]
 }
