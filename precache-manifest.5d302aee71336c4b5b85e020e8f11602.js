@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "abb76890eefac06a992f57e316cc255c",
+    "revision": "8a74eefc18f3e889f38185fc11b4d107",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "166dbcd02a40367b622e",
-    "url": "/static/css/main.d6e43f77.chunk.css"
+    "revision": "5db422e711720cdef10c",
+    "url": "/static/css/main.3c39861e.chunk.css"
   },
   {
     "revision": "04a0a085c79465489bac",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.68fa9f56.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "166dbcd02a40367b622e",
-    "url": "/static/js/main.311589c4.chunk.js"
+    "revision": "5db422e711720cdef10c",
+    "url": "/static/js/main.dc9c1e94.chunk.js"
   },
   {
     "revision": "d486e513ead31f59ec0e",
@@ -104,8 +104,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/avinew-logo@2x.55c55e4c.png"
   },
   {
-    "revision": "f367c610faa51dbf6b3707fe69f76009",
-    "url": "/static/media/brooke-lias@2x.f367c610.png"
+    "revision": "7912fff38cd26f945c84508f3dd4b609",
+    "url": "/static/media/brooke-lias@2x.7912fff3.png"
   },
   {
     "revision": "8c4ad1427595c4f30a27c7226b14190d",
@@ -116,8 +116,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/circled-graphic@2x.b72d1cb2.png"
   },
   {
-    "revision": "758b920691a9990964f3d9ebe7dd4bfe",
-    "url": "/static/media/dave-rich@2x.758b9206.png"
+    "revision": "e320f56a0c062004efffebb83f7fc438",
+    "url": "/static/media/dave-rich@2x.e320f56a.png"
   },
   {
     "revision": "fb96f9d9c0ab3d1024d34c9005667e3d",
