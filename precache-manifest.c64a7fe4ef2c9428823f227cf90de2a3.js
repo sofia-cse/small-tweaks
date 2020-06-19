@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6135ce42ee8f8b8d06bcb534dcc57f36",
+    "revision": "b42a57c370495fd2bed9c2804bb218c7",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "32c2ab8a539a75a78030",
-    "url": "/static/css/main.6e21fc01.chunk.css"
+    "revision": "1a9d7a2702d1bb466124",
+    "url": "/static/css/main.7622f5eb.chunk.css"
   },
   {
     "revision": "c2320a2d9c032d334c32",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.64a837e7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "32c2ab8a539a75a78030",
-    "url": "/static/js/main.ccb89ba8.chunk.js"
+    "revision": "1a9d7a2702d1bb466124",
+    "url": "/static/js/main.ad4ec961.chunk.js"
   },
   {
     "revision": "d486e513ead31f59ec0e",
@@ -140,8 +140,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hero-chart@2x.c656c4b1.png"
   },
   {
-    "revision": "41112c83af836a3d6ad43e7b1851e75c",
-    "url": "/static/media/implement-illustration@2x.41112c83.png"
+    "revision": "3019b1e9c2cc452babd6078df0ae3cf4",
+    "url": "/static/media/implement-illustration@2x.3019b1e9.png"
   },
   {
     "revision": "20e34e4dc427de567cbb7087f4786ee5",
@@ -164,12 +164,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pick-one@2x.a2ea525b.png"
   },
   {
-    "revision": "31f3c284e22ef1f2b77e7e579fac51c8",
-    "url": "/static/media/prototype-illustration@2x.31f3c284.png"
+    "revision": "5308446b0385b9319fb4b983cb0f6fff",
+    "url": "/static/media/prototype-illustration@2x.5308446b.png"
   },
   {
-    "revision": "82ea1af68da3817730cb01034ee7ccfd",
-    "url": "/static/media/research-illustration@2x.82ea1af6.png"
+    "revision": "3c2f227447131af51b3a03f685f788ac",
+    "url": "/static/media/research-illustration@2x.3c2f2274.png"
   },
   {
     "revision": "8022c60da821e68c5830a674fd20ac16",
