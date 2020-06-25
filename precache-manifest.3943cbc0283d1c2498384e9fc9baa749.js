@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c8b9f633ca6021ed626218c759e1a3d7",
+    "revision": "30ddba4d9227c4c5595a99b338553a34",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "fcef6f4e19cc2b9a5a65",
-    "url": "/static/css/main.ef026dac.chunk.css"
+    "revision": "a21fcdfc04eb433db334",
+    "url": "/static/css/main.4b31202a.chunk.css"
   },
   {
     "revision": "bfe3fd5403af2f35c485",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.718eb147.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fcef6f4e19cc2b9a5a65",
-    "url": "/static/js/main.98d3f775.chunk.js"
+    "revision": "a21fcdfc04eb433db334",
+    "url": "/static/js/main.f198feb7.chunk.js"
   },
   {
     "revision": "dbadce89e3fd37d9645c",
@@ -76,6 +76,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Akkurat-Normal.b750c9df.eot"
   },
   {
+    "revision": "0c0048d11954350c75ae63f3f792809c",
+    "url": "/static/media/GeorgiaPro-BoldItalic.0c0048d1.eot"
+  },
+  {
+    "revision": "bdb3b08151fe4af435c636cf2c85921c",
+    "url": "/static/media/GeorgiaPro-BoldItalic.bdb3b081.ttf"
+  },
+  {
+    "revision": "f90e7aecb7abe09d63434a6737d3bedd",
+    "url": "/static/media/GeorgiaPro-BoldItalic.f90e7aec.woff"
+  },
+  {
     "revision": "8a556756263e0b4c135aad3855fb5a50",
     "url": "/static/media/GeorgiaPro-Semibold.8a556756.eot"
   },
@@ -112,8 +124,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/brooke-lias@2x.7912fff3.png"
   },
   {
-    "revision": "8c4ad1427595c4f30a27c7226b14190d",
-    "url": "/static/media/chart-background@2x.8c4ad142.png"
+    "revision": "33d21d059f86e6e890c1273529174040",
+    "url": "/static/media/chart-background@2x.33d21d05.png"
   },
   {
     "revision": "b72d1cb2e5260f4c6a3e5f2aa6215eb0",
@@ -186,5 +198,29 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "93d941c362c11a16668cdc6d000548f4",
     "url": "/static/media/shades-of-blue-illustration@2x.93d941c3.png"
+  },
+  {
+    "revision": "15420f3eb621e7f3601d865e6105c930",
+    "url": "/static/media/tiempos-headline-web-medium.15420f3e.woff2"
+  },
+  {
+    "revision": "bef54e8f7b67382dbaf69c2e6b7dab74",
+    "url": "/static/media/tiempos-headline-web-medium.bef54e8f.woff"
+  },
+  {
+    "revision": "e1f37a96e6b5da9d29d648efd36697cb",
+    "url": "/static/media/tiempos-headline-web-medium.e1f37a96.eot"
+  },
+  {
+    "revision": "11c0b48eb8b6f91b5be4bc3952da1244",
+    "url": "/static/media/tiempos-headline-web-semibold.11c0b48e.woff2"
+  },
+  {
+    "revision": "49d926ca3deac1e055b7c9798db8ccf5",
+    "url": "/static/media/tiempos-headline-web-semibold.49d926ca.woff"
+  },
+  {
+    "revision": "d7dc60812447d06cc04987db8fa8edbe",
+    "url": "/static/media/tiempos-headline-web-semibold.d7dc6081.eot"
   }
 ]);
