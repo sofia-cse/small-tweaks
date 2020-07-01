@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b31202a.chunk.css",
+    "main.css": "/static/css/main.c36addd8.chunk.css",
     "main.js": "/static/js/main.f198feb7.chunk.js",
     "main.js.map": "/static/js/main.f198feb7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bc0978c8.js",
@@ -9,10 +9,10 @@
     "static/js/2.718eb147.chunk.js": "/static/js/2.718eb147.chunk.js",
     "static/js/2.718eb147.chunk.js.map": "/static/js/2.718eb147.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a63a6191a62200bf09a7f8f85e9cbc7a.js": "/precache-manifest.a63a6191a62200bf09a7f8f85e9cbc7a.js",
+    "precache-manifest.d672d84959323b3b7ae234516310a400.js": "/precache-manifest.d672d84959323b3b7ae234516310a400.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.4b31202a.chunk.css.map": "/static/css/main.4b31202a.chunk.css.map",
+    "static/css/main.c36addd8.chunk.css.map": "/static/css/main.c36addd8.chunk.css.map",
     "static/js/2.718eb147.chunk.js.LICENSE.txt": "/static/js/2.718eb147.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/tiempos-headline-web-semibold.d7dc6081.eot",
     "static/media/Phillip@2x.png": "/static/media/Phillip@2x.d5cab51b.png",
@@ -42,7 +42,7 @@
     "static/js/runtime-main.bc0978c8.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.718eb147.chunk.js",
-    "static/css/main.4b31202a.chunk.css",
+    "static/css/main.c36addd8.chunk.css",
     "static/js/main.f198feb7.chunk.js"
   ]
 }
