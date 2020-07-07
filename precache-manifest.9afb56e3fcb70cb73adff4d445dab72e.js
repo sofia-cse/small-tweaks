@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "11e527fb686acd15c39df6bc8de861c1",
+    "revision": "e90b05b557bd57537cbed78f2a0c1d8c",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "456c45a19d4602a5dd5e",
-    "url": "/static/css/main.c36addd8.chunk.css"
+    "revision": "adf815d9e2b203da206d",
+    "url": "/static/css/main.8a2632b8.chunk.css"
   },
   {
     "revision": "e55d78a5ba13eaa3d1cb",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.3db53c36.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "456c45a19d4602a5dd5e",
+    "revision": "adf815d9e2b203da206d",
     "url": "/static/js/main.4dc6f19a.chunk.js"
   },
   {
@@ -74,6 +74,38 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b750c9df60eeda3cbb66595d2508d56b",
     "url": "/static/media/Akkurat-Normal.b750c9df.eot"
+  },
+  {
+    "revision": "46904db62fae580b4e93d919e2cba271",
+    "url": "/static/media/Georgia Bold Italic V2.46904db6.woff2"
+  },
+  {
+    "revision": "e632df67d16efdb20ecf0772b651f334",
+    "url": "/static/media/Georgia Bold Italic V2.e632df67.woff"
+  },
+  {
+    "revision": "5c72d3415bdb99dc1e56dc9663c1515c",
+    "url": "/static/media/Georgia Bold V2.5c72d341.woff2"
+  },
+  {
+    "revision": "d0f19d7e86e5be0fe6a7a0f1fb141eee",
+    "url": "/static/media/Georgia Bold V2.d0f19d7e.woff"
+  },
+  {
+    "revision": "4fa9aaab031a052c398610a1ab7b0753",
+    "url": "/static/media/Georgia Italic.4fa9aaab.woff2"
+  },
+  {
+    "revision": "757cac673fdc16eb5414309674db6a0d",
+    "url": "/static/media/Georgia Italic.757cac67.woff"
+  },
+  {
+    "revision": "48e798427dc520c7560062f54eca954d",
+    "url": "/static/media/Georgia.48e79842.woff"
+  },
+  {
+    "revision": "75fd7f2510499e622fb561151d1e7459",
+    "url": "/static/media/Georgia.75fd7f25.woff2"
   },
   {
     "revision": "0c0048d11954350c75ae63f3f792809c",
