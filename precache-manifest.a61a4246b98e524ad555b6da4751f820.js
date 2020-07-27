@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b52cab67280a4fa030b293a5da8fb958",
+    "revision": "c7a3c60da743581a622caf5ee8907737",
     "url": "/index.html"
   },
   {
-    "revision": "e55d78a5ba13eaa3d1cb",
+    "revision": "ec1eba7738795282eda6",
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "9f17f60d74659747347b",
-    "url": "/static/css/main.bf78850a.chunk.css"
+    "revision": "8e6c023a4da2d1910dc1",
+    "url": "/static/css/main.d9cfef47.chunk.css"
   },
   {
-    "revision": "e55d78a5ba13eaa3d1cb",
-    "url": "/static/js/2.3db53c36.chunk.js"
+    "revision": "ec1eba7738795282eda6",
+    "url": "/static/js/2.a9b0028e.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.3db53c36.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a9b0028e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9f17f60d74659747347b",
-    "url": "/static/js/main.408f73c6.chunk.js"
+    "revision": "8e6c023a4da2d1910dc1",
+    "url": "/static/js/main.53340e72.chunk.js"
   },
   {
     "revision": "d486e513ead31f59ec0e",
@@ -200,6 +200,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo.20e34e4d.svg"
   },
   {
+    "revision": "d3b0a9a39ec3fce304c488a4143f7050",
+    "url": "/static/media/logo@2x.d3b0a9a3.png"
+  },
+  {
     "revision": "6d01d6f3bfbe22fbe8a8f96b513cdcb7",
     "url": "/static/media/n2uitive-after@2x.6d01d6f3.png"
   },
@@ -254,5 +258,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d7dc60812447d06cc04987db8fa8edbe",
     "url": "/static/media/tiempos-headline-web-semibold.d7dc6081.eot"
+  },
+  {
+    "revision": "08734005a8c980ec65a7044679a9cc16",
+    "url": "/static/media/tiempos-text-web-regular.08734005.eot"
+  },
+  {
+    "revision": "6a437c8a429746380958c5c7f8609b98",
+    "url": "/static/media/tiempos-text-web-regular.6a437c8a.woff2"
+  },
+  {
+    "revision": "c868d69a9cbca8116e93efdf9be48c6a",
+    "url": "/static/media/tiempos-text-web-regular.c868d69a.woff"
   }
 ]);
