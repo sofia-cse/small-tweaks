@@ -24,14 +24,54 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>small tweaks • Home</title>
+    <title>small tweaks</title>
+
+    <!--email js-->
     <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("user_DAxRhCUOWyZbMpVlmpKOk"); // Obtain your user ID at the dashboard https://dashboard.emailjs.com/integration
-   })();
-</script>
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init("user_DAxRhCUOWyZbMpVlmpKOk"); // Obtain your user ID at the dashboard https://dashboard.emailjs.com/integration
+      })();
+    </script>
+
+    <!--intercom-->
+    <script>
+      // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/qev44m0l'
+      (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/qev44m0l';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+    </script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window,document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1238448309840718'); 
+      fbq('track', 'PageView');
+      </script>
+      <noscript>
+      <img height="1" width="1" 
+      src="https://www.facebook.com/tr?id=1238448309840718&ev=PageView
+      &noscript=1"/>
+      </noscript>
+      <!-- End Facebook Pixel Code -->
+      
+      <!-- Oribi Code -->
+      <script type="application/javascript">
+        (function(b,o,n,g,s,r,c){if(b[s])return;b[s]={};b[s].scriptToken="Xy02Mjk0MjI1NDA";b[s].callsQueue=[];b[s].api=function(){b[s].callsQueue.push(arguments);};r=o.createElement(n);c=o.getElementsByTagName(n)[0];r.async=1;r.src=g;r.id=s+n;c.parentNode.insertBefore(r,c);})(window,document,"script","https://cdn.oribi.io/Xy02Mjk0MjI1NDA/oribi.js","ORIBI");
+      </script>
+      <!-- End Oribi Code -->
+
+      <!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com -->
+        <script type="text/javascript" src="https://a.omappapi.com/app/js/api.min.js" data-account="88676" data-user="78874" async></script>
+      <!-- / https://optinmonster.com -->
+      
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

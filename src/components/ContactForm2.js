@@ -78,20 +78,20 @@ refreshComponent(name,) {
           {showHideContactForm1 && 
           
         <div>
-          <label htmlFor="name" required>Your Name</label><br />
-          <input type="text" id="name" name="name" onChange={this.handleChange.name} value={this.state.name} style={{width: "100%"}} /><br />
+          <label htmlFor="name">Your Name</label><br />
+          <input type="text" id="name" required name="name" onChange={this.handleChange.name} value={this.state.name} style={{width: "100%"}} /><br />
           <label htmlFor="email">Work Email</label><br />
           <input type="email" id="email" name="email" onChange={this.handleChange.email} value={this.state.email} required style={{width: "100%"}} /><br />
           <label htmlFor="phone">Phone</label><br />
           <input type="tel" id="phone" name="phone" onChange={this.handleChange.phone} value={this.state.phone} style={{width: "100%"}} /><br />
           <div className="text-center">
-            <input type="submit" className="mx-auto contact-button" value="Send" />
+            <input type="submit" className="mx-auto contact-button smallred" value="Send" />
           </div>
         </div>  
         }
         </form>
         <div className="text-center mx-auto">
-        {!showHideContactForm1 && <button className="mx-auto contact-button" onClick={() => this.hideComponent("showHideContactForm1")}>
+        {!showHideContactForm1 && <button className="mx-auto contact-button smallred" onClick={() => this.hideComponent("showHideContactForm1")}>
             Next
         </button>}
         <br />
@@ -99,8 +99,8 @@ refreshComponent(name,) {
       </div>}
       { done && 
         <div>
-          <p>We got your message, and we’ll get back to you shortly.</p>
-          <button className="refresh" onClick={() => this.refreshComponent("refreshContactForm")}><img src={refreshIcon} width={38} alt="refresh form" /></button>
+          <p className="success">We got your message, and we’ll get back to you shortly.</p>
+          <button className="refresh" onClick={() => this.refreshComponent("refreshContactForm")}><img src={refreshIcon} width={38} alt="refresh form" className="success" /></button>
         </div>
       }
     </div>

@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
+import {hotjar} from 'react-hotjar';
+import Scrollspy from 'react-scrollspy';
+import Fade from 'react-reveal/Fade';
+import logo from './img/logo@2x.png';
 import heroForeground from './img/hero-chart@2x.png';
 import satellite from './img/satellite-illustration@2x.png';
 import shadesOfBlue from './img/shades-of-blue-illustration@2x.png';
@@ -24,6 +28,10 @@ import n2uitive from './img/n2uitive@2x.png';
 import compareArrow from './img/comparison-arrow@2x.png';
 import daveRich from './img/dave-rich@2x.png';
 import brookeLias from './img/brooke-lias@2x.png';
+import phillipNewlin from './img/Phillip@2x.png';
+import contactHeader from './img/contact-header@2x.png';
+import contactFlow from './img/contact-flow@2x.png';
+
 //import stoneStrickland from './img/stone-strickland@2x.png';
 import './App.css';
 import SmallTweaksNavBar from './components/SmallTweaksNavBar';
@@ -39,9 +47,18 @@ import ContactForm3 from "./components/ContactForm3";
 ReactGA.initialize('UA-168952995-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
+
+
 class App extends Component {
   constructor() {
     super();
+    // initialize intercom
+    window.Intercom("boot", {
+      app_id: "qev44m0l"
+    });
+
+    hotjar.initialize(1886255, 6);
+
     this.state = {
       name: "React",
       showHideContact1: false,
@@ -50,7 +67,6 @@ class App extends Component {
     };
     this.hideComponent = this.hideComponent.bind(this);
   }
-
 
   hideComponent(name) {
     console.log(name);
@@ -69,117 +85,87 @@ class App extends Component {
     }
   }
 
-  
-
   render() {
   const { showHideContact1, showHideContact2, showHideContact3 } = this.state;
   return (
     <div className="">
         <SmallTweaksNavBar />
-        <Jumbotron id="hero" className="py-0" fluid>
+        <Jumbotron id="hero" className="py-0 overflow-hidden" fluid>
           <Container className="mx-auto px-0">
             <Image src={heroForeground} width={1080} />
-            <h1 className="mx-auto">We help businesses improve their products by <span style={{textDecoration: 'underline'}}>11%</span> (or more).</h1>
+            <h1 className="mx-auto">We make stuff better.</h1>
+            <p>Let's help optimize your product by 11% (or more)...</p>
           </Container>
         </Jumbotron>
-        <Container id="intro">
-        <Row className="align-middle" style={{paddingTop: 43}}>
-          <Col md>
+        <Container>
+        <Row className="align-middle" id="intro">
+          <Col md style={{paddingBottom: 7}}>
             <img src={satellite} className="satellite" alt="satellite-graphic" width={555}/>
           </Col>
           <Col md className="my-auto text-left">
-            <p className="description" style={{fontSize: 25}}><span>
-            <span className="highlighter"><b>A  small change can have a big impact.</b></span> That’s why we research, prototype, and implement product modifications, with a twist… we only focus on small tweaks.
+            <p className="description m-0"><span>
+            <span className="highlighter"><b>A small change can have a big impact.</b></span> That’s why we research, prototype, and implement product optimizations, but with a twist… we only focus on small tweaks.
             </span></p>
           </Col>
         </Row>
         <Row className="align-middle interlude">
           <Col className="my-auto">
-            <span className="georgia"><i>We’ve found that if you can locate the right areas to improve, that many times just one  small tweak – <b>done the right way</b> – can get you a massive ROI.</i></span>
+            <p className="m-0"><span className="georgia"><i>We’ve found that if you can locate the right areas to improve, that just one  <span className="text-nowrap">small tweak</span> <span className="text-nowrap">– <b>done the right way</b> –</span> can get you a massive ROI.</i></span></p>
           </Col>
         </Row>
+        </Container>
+        <div className="floating-nav">
+          <div className="nav-wrapper">
+            <Fade left big>
+            <div className="text-logo"><img src={logo} alt="logo" width={170} /></div>
+            <div className="tagline"><span>Get the most out of what you got.</span></div>
+            <nav style={{marginBottom: 37}}>
+              <Scrollspy offset={-160} items={ ['intro', 'examples', 'comparisons', 'howitworks', 'testimonials', 'contact'] } currentClassName="is-current">
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#examples">Examples</a></li>
+                <li><a href="#comparisons">Before & Afters</a></li>
+                <li><a href="#howitworks">How It Works</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </Scrollspy>
+            </nav>
+            <a href="https://app.monstercampaigns.com/c/upogpb2fnup7n4xqbawj/" target="_blank" className="contact-button smallblue">$100 Product Review</a>
+            </Fade>
+          </div>
+        </div>
+        <Container>
         <Row className="align-middle" id="examples">
+        <Col md={{ span: 6, order: 1 }} className="my-auto text-left mobile">
+            <h2 className="tiempos-semi" style={{marginTop: 0}}><b>A Couple Examples…</b></h2>
+        </Col>
         <Col md={{ span: 6, order: 2 }}>
             <img src={shadesOfBlue} alt="shades-of-blue" width={515} />
           </Col>
           <Col md={{ span: 6, order: 1 }} className="my-auto text-left">
-            <h2 className="georgia" style={{marginTop: 33}}><b>A Couple Examples…</b></h2>
-            <p className="description"><span>Back in 2010 Google made upwards of <span className="highlighter"><b>$200,000,000 in a year</b></span> just by tweaking the color of their search result links by one shade of blue. That’s it! Turns out people subconsciously preferred clicking on more of a purplish-blue vs a greenish-blue. Who knew?</span></p>
+            <h2 className="tiempos-semi desktop" style={{marginTop: 33}}><b>A Couple Examples…</b></h2>
+            <p className="description"><span>Back in 2010 Google made an additional<span className="highlighter"><b> $200 Million in a year </b></span>just by tweaking the color of their search result links by one shade of blue. That’s it! Turns out people subconsciously preferred clicking on more of a purplish-blue vs a greenish-blue. Who knew?</span></p>
           </Col>
         </Row>
-        <Row className="align-middle" style={{paddingTop: 52, paddingBottom: 54}}>
+        <Row className="align-middle" style={{marginTop: 108}}>
           <Col md>
           <img src={searsIllustration} alt="sears-catalogue-illustration" width={540} />
           </Col>
           <Col md className="my-auto text-left">
-            <p className="description"><span>And you don’t have to be some big tech company for  small tweaks to work. Go all the way back to the 1800s when Americans got their goods by mail-order. Nearly everyone had two catalogs – one from Montgomery Ward, and one from <span className="highlighter"><b>an upstart called Sears Roebuck.</b></span><br /><br />
-            One year Sears noticed that folks stacked both catalogs on their coffee table for easy access. So they decided to <span className="highlighter"><b>make their catalog  smaller</b></span> which caused people to stack it on top of their competitors, and in turn reach for it first. Shortly thereafter, their sales skyrocketed.</span></p>
+            <p className="description"><span>Or go back to the 1800's when Americans got their goods by mail-order. Nearly everyone had two catalogs – one from Montgomery Ward, and one from <span className="highlighter"><b>a new upstart, Sears Roebuck.</b></span><br /><br />
+            One year Sears noticed that folks stacked both catalogs on their coffee table for easy access. So they decided to<span className="highlighter"><b> make their catalog  smaller,</b></span> causing people to stack it on top of their competitors. Shortly thereafter, sales skyrocketed.</span></p>
           </Col>
         </Row>
-        <Row className="align-middle interlude">
+        <Row className="align-middle interlude" style={{marginBottom: 155}}>
           <Col className="my-auto">
-            <span className="georgia"><i>The beauty of  small tweaks is that in addition to having that massive ROI, they’re <b>cheaper</b>, they’re <b>faster</b>, and they’re <b>easier to implement</b>.</i></span>
+            <span className="georgia"><i>The beauty of  small tweaks is that in addition to that massive ROI, they’re <b>cheaper</b>, they’re <b>faster</b>, and they’re <b>easier to implement</b>.</i></span>
           </Col>
         </Row>
         </Container>
-        <Container className="how-it-works" id="howitworks">
-          <Row className="text-center">
-            <Col className="how-it-title">
-            <h2 className="georgia"><b>How It Works</b></h2>
-            <img src={howItWorks} alt="underline" width={96} />
-            </Col>
-          </Row>
-          <Row className="align-middle">
-            <Col className="text-center explanation">
-            <img src={researchIllustration} alt="research-illustration" width={366.5} />
-            </Col>
-            <Col md className="my-auto text-left explanation">
-              <div className="bullet">
-                <img src={icOne} alt="bullet-one" className="align-middle my-auto" width={33} />
-                <h3 className="d-inline-block align-middle my-auto mx-2"><b>RESEARCH</b></h3>
-              </div>
-              <p className="how-it"><span>We dive deep to understand your product and get insights by talking to and getting feedback from your <span>customers/stakeholders/market/etc.</span> It’s all then converted to <b>quantifiable data</b> to determine a baseline for measuring future tweaks against.</span></p>
-            </Col>
-          </Row>
-          <Row>
-            <Col className="text-center">
-            <img src={notchedBorder} alt="notched-border" width={935.9} style={{paddingTop: 27.5, paddingBottom: 29.5}} />
-            </Col>
-          </Row>
-          <Row className="align-middle">
-            <Col md className="text-center explanation">
-            <img src={prototypeIllustration} alt="prototype-illustration" width={337} />
-            </Col>
-            <Col md className="my-auto text-left explanation">
-              <div className="bullet" style={{marginTop: 23}}>
-                <img src={icTwo} alt="bullet-two" className="" width={33} />
-                <h3 className="d-inline-block align-middle my-auto mx-2"><b>PROTOTYPE</b></h3>
-              </div>
-              <p className="how-it"><span>We then take those findings and design a prototype to test in the field. We keep refining until the data shows us that the tweak will <b>improve product performance by 11% or more.</b> (This is our insurance of success.)</span></p>
-            </Col>
-          </Row>
-          <Row>
-            <Col className="text-center">
-            <img src={notchedBorder} alt="notched-border" width={935.9} style={{paddingTop: 52, paddingBottom: 33.5}} />
-            </Col>
-          </Row>
-          <Row className="align-middle" style={{paddingBottom: 18}}>
-            <Col md className="text-center explanation">
-            <img src={implementIllustration} alt="implement-illustration" width={384.27}/>
-            </Col>
-            <Col md className="my-auto text-left explanation">
-              <div className="bullet">
-               <img src={icThree} alt="bullet-three" className="" width={33} />
-               <h3 className="d-inline-block align-middle my-auto mx-2"><b>IMPLEMENT</b></h3>
-              </div>
-              <p className="how-it"><span>Finally, we actually help you bring the modifications to life by being the support system for your engineers. Want development specs and technical recommendations on a silver platter? You got it. <b>We’re not done until the tweak is launched.</b></span></p>
-            </Col>
-          </Row>
-        </Container>
-        <Container id="comparisons">
+        <div id="comparisons">
+        <Container>
           <Row className="comparisons">
-            <Col>
-             <h2 className="georgia"><b>Before & Afters...</b></h2>
+            <Col className="text-center">
+             <h2 className="tiempos-semi"><b>Before & Afters...</b></h2>
             </Col>
           </Row>
         </Container>
@@ -192,22 +178,26 @@ class App extends Component {
             </Row>
             <Row>
               <Col className="text-center">
-              <p className="description"><span>Avinew is an insurtech company that helps you save money on auto insurance when you use automated driving systems like Tesla’s Autopilot. They initially met resistance when asking customers to log in to their Tesla accounts to provide usage data. We fixed that.</span></p>
+              <p className="description"><span>Avinew is an insurtech company that initially met resistance when asking customers to log in to their Tesla accounts to provide usage data. We fixed that by putting the customers mind at ease.</span></p>
               </Col>
             </Row>
             <Row>
-              <Col md className="text-center overflowing">
+              <Col md className="text-right">
+                <div className="text-center ml-auto overflowing">
                 <p className="comparison-title">Before</p>
                 <img src={avinewBefore} alt="avinew-comparison-before" width={404} className="overflowing before" />
+                </div>
               </Col>
               <Col md="auto" className="text-center compare-arrow"><img src={compareArrow} alt="avinew-comparison-arrow" width={39} className="" /></Col>
-              <Col md className="text-center overflowing">
+              <Col md className="text-left">
+                <div className="text-center overflowing">
                 <p className="comparison-title">After</p>
                 <img src={avinewAfter} alt="avinew-comparison-after" width={404} className="overflowing" />
+                </div>
               </Col>
             </Row>
             <Row>
-              <Col className="roi georgia text-center">
+              <Col className="roi tiempos-semi text-center">
               <h3 className="mx-auto"><b>This tweak increased brand trust by an unbelievable <div className="circled-avinew"><span className="avinew-roi">80%</span></div></b></h3>
               </Col>
             </Row>
@@ -222,7 +212,7 @@ class App extends Component {
             </Row>
             <Row>
               <Col className="text-center">
-              <p className="description"><span>Their software allows insurance adjusters, paralegals, etc to take and record statements over the phone. The pain point was that users were forced to use a touch-tone phone dialing system to make the call, link the call, and record the call. We helped create a button inside their web app that did this for them instead.</span></p>
+              <p className="description"><span>N2uitive’s users were forced to use a touch-tone phone dialing system to make, link, and record their client statements. We helped create a button inside their web app that dramatically simplified the process.</span></p>
               </Col>
             </Row>
             <Row>
@@ -237,7 +227,7 @@ class App extends Component {
               </Col>
             </Row>
             <Row>
-              <Col className="roi georgia text-center">
+              <Col className="roi tiempos-semi text-center">
               <h3 className="mx-auto"><b>This tweak increased user satisfaction by a whopping <div className="circled-n2uitive"><span className="n2uitive-roi">57%!</span></div></b></h3>
               </Col>
             </Row>
@@ -267,17 +257,90 @@ class App extends Component {
               </Col>
             </Row>
             <Row>
-              <Col className="roi georgia text-center">
-              <h3 className="mx-auto"><b>This tweak netted a <span className="fireside-roi"><div className="circled-fireside">17%</div> increase</span> in user engagement overnight.</b></h3>
+              <Col className="roi tiempos-semi text-center">
+              <h3 className="mx-auto"><b>This tweak netted a <div className="circled-fireside"><span className="fireside-roi">17%</span></div> increase in user engagement.</b></h3>
               </Col>
             </Row>
           </Container>
         </div>
+        </div>
+        <Container className="how-it-works" id="howitworks">
+          <Row className="text-center">
+            <Col className="how-it-title">
+            <h2 className="tiempos-semi">How It Works</h2>
+            <img src={howItWorks} alt="underline" width={96} />
+            </Col>
+          </Row>
+          <Row className="align-middle">
+            <Col md className="my-auto text-center explanation mobile">
+              <div className="bullet">
+                <img src={icOne} alt="bullet-one" className="align-middle my-auto" width={33} />
+                <h3 className="d-inline-block align-middle my-auto mx-2"><b>RESEARCH</b></h3>
+              </div>
+            </Col>
+            <Col className="text-center">
+            <img src={researchIllustration} alt="research-illustration" width={366.5} />
+            </Col>
+            <Col md className="my-auto text-left explanation">
+              <div className="bullet desktop">
+                <img src={icOne} alt="bullet-one" className="align-middle my-auto" width={33} />
+                <h3 className="d-inline-block align-middle my-auto mx-2"><b>RESEARCH</b></h3>
+              </div>
+              <p className="how-it"><span>Our scientist dives deep to understand your product and get insights via feedback from your customers/stakeholders/etc. It’s all then<span className="highlighter"> converted to quantifiable data </span>to get a baseline for measuring future tweaks against.</span></p>
+            </Col>
+          </Row>
+          <Row>
+            <Col className="text-center">
+            <img src={notchedBorder} alt="notched-border" className="notched-border" width={935.9} style={{paddingTop: 51, paddingBottom: 29.5}} />
+            </Col>
+          </Row>
+          <Row className="align-middle">
+            <Col md className="my-auto text-center explanation mobile">
+              <div className="bullet" >
+                <img src={icTwo} alt="bullet-two" className="" width={33} />
+                <h3 className="d-inline-block align-middle my-auto mx-2"><b>PROTOTYPE</b></h3>
+              </div>
+            </Col>
+            <Col md className="text-center">
+            <img src={prototypeIllustration} alt="prototype-illustration" width={337} />
+            </Col>
+            <Col md className="my-auto text-left explanation">
+              <div className="bullet desktop">
+                <img src={icTwo} alt="bullet-two" className="" width={33} />
+                <h3 className="d-inline-block align-middle my-auto mx-2"><b>PROTOTYPE</b></h3>
+              </div>
+              <p className="how-it"><span>A designer then takes those findings and designs a prototype to test in the field. We keep refining until the data shows us that the tweak will improve product performance<span className="highlighter"> by 11% </span>or more. (This is our insurance of success.)</span></p>
+            </Col>
+          </Row>
+          <Row>
+            <Col className="text-center">
+            <img src={notchedBorder} alt="notched-border" className="notched-border" width={935.9} style={{paddingTop: 52, paddingBottom: 33.5}} />
+            </Col>
+          </Row>
+          <Row className="align-middle" style={{paddingBottom: 59}}>
+            <Col md className="my-auto text-center explanation mobile">
+              <div className="bullet">
+               <img src={icThree} alt="bullet-three" className="" width={33} />
+               <h3 className="d-inline-block align-middle my-auto mx-2"><b>IMPLEMENT</b></h3>
+              </div>
+            </Col>
+            <Col md className="text-center">
+              <img src={implementIllustration} alt="implement-illustration" width={384.27}/>
+            </Col>
+            <Col md className="my-auto text-left explanation">
+              <div className="bullet desktop">
+               <img src={icThree} alt="bullet-three" className="" width={33} />
+               <h3 className="d-inline-block align-middle my-auto mx-2"><b>IMPLEMENT</b></h3>
+              </div>
+              <p className="how-it"><span>Finally, we help bring the modifications to life by being the support system for your engineers. Want development specs and technical recommendations on a silver platter? You got it.<span className="highlighter"> We’re not done until the tweak is launched.</span></span></p>
+            </Col>
+          </Row>
+        </Container>
         <div id="testimonials">
-          <Container>
+          <Container className="overflow-hidden">
             <Row>
               <Col className="text-center">
-              <h2 className="georgia"><b>How We’ve Helped...</b></h2>
+              <h2 className="tiempos-semi"><b>What Others Say...</b></h2>
               </Col>
             </Row>
             <Row>
@@ -298,7 +361,7 @@ class App extends Component {
                 </div>
               </Col>
             </Row>
-            <Row style={{paddingTop: 29, paddingBottom: 28}}>
+            <Row>
               <Col className="text-right">
                 <div className="testimonial brooke">
                   <p className="m-0">
@@ -306,16 +369,35 @@ class App extends Component {
                   </p>
                   <div className="brooke-arrow">
                   </div>
-                  </div>
-                  <div className="d-inline-block shoutout-right">
+                </div>
+                <div className="d-flex shoutout-right">
+                  <img src={brookeLias} alt="Brooke Lias" width={68} style={{maxHeight: 68}} />
                   <div className="d-inline-block align-middle my-auto">
-                    <h5 className="my-0 client-name">Brooke Lias</h5>
+                    <h5 className="my-0 client-name">Brooke Lais</h5>
                     <span className="client-title">Chief Marketing Officer <span className="separator">•</span> Avinew</span>
                   </div>
-                <img src={brookeLias} alt="Brooke Lias" width={68} className=""/>
                 </div>
              </Col>           
             </Row>
+            <Row>
+              <Col className="text-left">
+                <div className="testimonial phil">
+                  <p className="m-0">
+                  “I was convinced by their tenacity and responsiveness that they can handle anything. <b>They know what they can deliver, and back it up</b>.”
+                  </p>
+                  <div className="phil-arrow">
+                  </div>
+                </div>
+                <div className="d-inline-block shoutout">
+                  <img src={phillipNewlin} alt="Philip Newlin" width={68} className="phil"/>
+                  <div className="d-inline-block align-middle my-auto">
+                  <h5 className="my-0 client-name">Philip Newlin</h5>
+                  <span className="client-title">Senior Product Manager <span className="separator">•</span> Beaubois</span>
+                </div>
+                </div>
+              </Col>
+            </Row>
+            
             {/* <Row>
               <Col className="text-left">
                 <div className="testimonial stone">
@@ -338,37 +420,39 @@ class App extends Component {
         </div>
         <div className="contact-area">
           <Container id="contact">
-              <Row className="align-middle interlude">
+              {/*<Row className="align-middle interlude">
               <Col className="my-auto">
-                <span className="georgia"><i>When it comes to developing new products or services, a lot of businesses don’t have the budget they used to. What you need is a tool to get the most out of what you’ve already got. <b>Let us be that tool for you.</b></i></span>
+                <span className="tiempos-med">
+                  Are you looking to improve your bottom line?<br />
+                  <span className="georgia-pro"><i><b>All it takes is one small tweak.</b></i></span>
+                </span>
               </Col>
-              </Row>
+          </Row>*/}
               <Row className="text-center">
                 <Col>
-                <h2 className="georgia" style={{marginTop: 27}}><b>Pick One...</b></h2>
+                <img src={contactHeader} className="d-block mx-auto" alt="How can we help?" width={403} />
+                <img src={contactFlow} className="d-block mx-auto" id="contact-flow" alt="Flow Diagram" width={509} />
                 </Col>
               </Row>
               <Row className="contact-boxes text-center">
                 <Col md className="contact-1">
-                  {!showHideContact1 && <h3 className="mx-auto">I have a question.<span className="vertical-spacer"><br />&nbsp;</span></h3>}
-                  {!showHideContact1 && 
-                    <button className="mx-auto contact-button" onClick={() => this.hideComponent("showHideContact1")}>
-                      Go
-                    </button>}
-                  {showHideContact1 && <Contact1 />}
+                    <h3 className="mx-auto">I'd like the $100 product review.<span className="vertical-spacer"><br />&nbsp;</span></h3>
+                    <a href="https://app.monstercampaigns.com/c/upogpb2fnup7n4xqbawj/" target="_blank" className="mx-auto contact-button smallred">
+                      Yes :)
+                    </a>
                 </Col>
                 <Col md className="contact-2">
-                  {!showHideContact2 && <h3 className="mx-auto">I'd like to chat with someone.</h3>}
-                  {!showHideContact2 && 
-                  <button className="mx-auto contact-button" onClick={() => this.hideComponent("showHideContact2")}>
-                    Go
+                  {!showHideContact1 && <h3 className="mx-auto">I have a question.</h3>}
+                  {!showHideContact1 && 
+                  <button className="mx-auto contact-button smallgold" onClick={() => this.hideComponent("showHideContact1")}>
+                    Yes :)
                   </button>}
-                  {showHideContact2 && <ContactForm2 />}
+                  {showHideContact1 && <Contact1 />}
                 </Col>
                 <Col md className="contact-3">
                   {!showHideContact3 && <h3 className="mx-auto">Deep down, I just want to be happy.</h3>}
-                  {!showHideContact3 && <button className="mx-auto contact-button" onClick={() => this.hideComponent("showHideContact3")}>
-                    Go
+                  {!showHideContact3 && <button className="mx-auto contact-button smallblue" onClick={() => this.hideComponent("showHideContact3")}>
+                    Yes :)
                   </button>}
                   {showHideContact3 && <ContactForm3 />}
                 </Col>
