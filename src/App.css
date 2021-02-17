@@ -144,23 +144,23 @@ body p {
 }
 
 .smallred {
-  background-color: #D73440;
+  Background: linear-gradient(#EB6E77, #D73440); 
   border-color: #BA212D !important;
-  box-shadow: 0px 0px 7px #D7344054;
+  box-shadow: 0px 7px 22px #ff658980;
 
 }
 
 .smallgold {
-  background-color: #C69365;
+  background: linear-gradient(#E3B286, #C69365);
   border-color: #BA8D66 !important;
-  box-shadow: 0px 0px 7px #D19A6954;
+  box-shadow: 0px 0px 15px #D19A6966;
 
 }
 
 .smallblue {
-  background-color: #50B9D3;
+  background: linear-gradient(#66CAE3, #50B9D3);
   border-color: #36A7C4 !important;
-  box-shadow: 0px 0px 7px #00CBFF54;
+  box-shadow: 0px 5px 15px #00CBFF54;
 }
 
 .nav-menu {
@@ -232,13 +232,21 @@ div.menu-button {
 }
 
 #hero.jumbotron {
-  margin-bottom: 7rem;
+  margin-bottom: 5.5rem;
 }
 
 #hero p {
-  font-family: "Tiempos Text";
-  font-size: 31px;
-  color: #8294A0;
+  font-family: "Akkurat";
+  font-size: 27px;
+  color: #222629;
+  width: 82%;
+  letter-spacing: -0.54px;
+}
+
+.separator {
+  color: #36A7C4;
+  margin-top: 12px;
+  margin-bottom: 21px;
 }
 
 .floating-nav .text-logo {
@@ -272,7 +280,7 @@ div.menu-button {
   text-decoration: none;
 }
 
-.is-current a {
+.floating-nav nav .is-current a {
   color: #42575F;
   font-weight: 700;
   text-decoration: none;
@@ -357,7 +365,7 @@ div.menu-button {
 
 }
 
-#hero img {
+#hero img.hero-image {
   max-width: 1080px;
   margin-left: 50%;
   transform: translateX(-50%);
@@ -395,10 +403,6 @@ div.menu-button {
   pointer-events: none;
 }
 
-.hero-image {
-  margin-top: 60px;
-}
-
 #hero {
   color: #222629;
   text-align: center;
@@ -415,8 +419,8 @@ img {
 }
 
 .highlighter {
-  display: inline;
   background-color: #7DD8EF80;
+  box-shadow: 0px 0px 0px #7DD8EF80;
   padding-top: 6px;
   padding-bottom: 4px;
 }
@@ -437,9 +441,9 @@ img {
 #hero h1 {
   font-family: 'Tiempos Headline';
   font-weight: 500;
-  width:88%;
-  font-size: 64px;
-  line-height: 70px;
+  width:95%;
+  font-size: 67px;
+  line-height: 72px;
   margin-top: -22px;
 }
 
@@ -810,10 +814,6 @@ div.phil-arrow::after {
   font-size: 22px;
 }
 
-.separator {
-  color: #36A7C4;
-}
-
 .client-title {
   color: #42575F;
   font-family: 'Akkurat', Helvetica, Arial, sans-serif;
@@ -927,7 +927,7 @@ img.success {
   }
 
   .mobile {
-    display: none;
+    display: none !important;
   }
 
   .bullet {
@@ -981,7 +981,7 @@ form.contact_form label input[type='checkbox']{margin-left:-18px; border-color: 
 
 @media (max-width: 795px) {
   .desktop {
-    display: none;
+    display: none !important;
   }
 
   #intro .description {

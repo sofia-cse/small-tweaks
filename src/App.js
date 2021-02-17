@@ -3,8 +3,10 @@ import ReactGA from 'react-ga';
 import {hotjar} from 'react-hotjar';
 import Scrollspy from 'react-scrollspy';
 import Fade from 'react-reveal/Fade';
+import VisibilitySensor from 'react-visibility-sensor';
 import logo from './img/logo@2x.png';
 import heroForeground from './img/hero-chart@2x.png';
+import blueSeparator from './img/blue-separator@2x.png'
 import satellite from './img/satellite-illustration@2x.png';
 import shadesOfBlue from './img/shades-of-blue-illustration@2x.png';
 import searsIllustration from './img/sears-illustration@2x.png';
@@ -42,7 +44,6 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Image from 'react-bootstrap/Image';
 import Contact1 from "./components/Contact1";
 import ContactForm2 from "./components/ContactForm2";
-import ContactForm3 from "./components/ContactForm3";
 
 ReactGA.initialize('UA-168952995-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -63,10 +64,18 @@ class App extends Component {
       name: "React",
       showHideContact1: false,
       showHideContact2: false,
-      showHideContact3: false
+      buttonVisibility: false,
     };
     this.hideComponent = this.hideComponent.bind(this);
+    this.handleChange = this.handleChange.bind(this);
   }
+
+  handleChange (isVisible) {
+    console.log('Element is now %s', isVisible ? 'visible' : 'hidden');
+    this.setState({ buttonVisibility: isVisible ? false : true });
+    
+  }
+
 
   hideComponent(name) {
     console.log(name);
@@ -77,24 +86,29 @@ class App extends Component {
       case "showHideContact2":
         this.setState({ showHideContact2: !this.state.showHideContact2 });
         break;
-      case "showHideContact3":
-        this.setState({ showHideContact3: !this.state.showHideContact3 });
-        break;
       default:
         this.setState(null);
     }
   }
 
+
   render() {
-  const { showHideContact1, showHideContact2, showHideContact3 } = this.state;
+  const { showHideContact1, showHideContact2 } = this.state;
+  
+  
   return (
     <div className="">
-        <SmallTweaksNavBar />
+        <SmallTweaksNavBar dataFromParent = {this.state.buttonVisibility} />
         <Jumbotron id="hero" className="py-0 overflow-hidden" fluid>
           <Container className="mx-auto px-0">
-            <Image src={heroForeground} width={1080} />
-            <h1 className="mx-auto">We make stuff better.</h1>
-            <p>Let's help optimize your product by 11% (or more)...</p>
+            <Image className="hero-image" src={heroForeground} width={1080} />
+            <h1 className="mx-auto">Your application is losing money. We can help.</h1>
+            <img src={blueSeparator} className="mx-auto separator" alt="blue-separator" width={38}/>
+            <p style={{marginBottom: 42}} className="mx-auto">We're an R&D firm specializing in locating <span className="highlighter"><b>your app's underperformance.</b></span> Once found, we <span className="highlighter"><b>create optimizations</b></span> based on research and hard data.</p>
+            <VisibilitySensor onChange={this.handleChange}>
+            <div className="desktop" style={{height: 74, marginTop: 46}}><a href="https://app.monstercampaigns.com/c/yismlgmgd8uw9zenwo7c/" target="_blank" rel="noopener noreferrer" style={{paddingTop: 12, paddingBottom: 12, paddingLeft: 31, paddingRight: 31, fontSize: 20}} className="contact-button smallred">Review My App...</a></div>
+            </VisibilitySensor>
+            <div className="mobile" style={{height: 74, marginTop: 46}}><a href="https://calendly.com/smalltweaks/productreview" target="_blank" rel="noopener noreferrer" style={{paddingTop: 12, paddingBottom: 12, paddingLeft: 31, paddingRight: 31, fontSize: 20}} className="contact-button smallred">Review My App...</a></div>
           </Container>
         </Jumbotron>
         <Container>
@@ -116,9 +130,9 @@ class App extends Component {
         </Container>
         <div className="floating-nav">
           <div className="nav-wrapper">
-            <Fade left big>
+            <Fade left big fraction={1}>
             <div className="text-logo"><img src={logo} alt="logo" width={170} /></div>
-            <div className="tagline"><span>Get the most out of what you got.</span></div>
+            <div className="tagline"><span>Get the most out of what you've got.</span></div>
             <nav style={{marginBottom: 37}}>
               <Scrollspy offset={-160} items={ ['intro', 'examples', 'comparisons', 'howitworks', 'testimonials', 'contact'] } currentClassName="is-current">
                 <li><a href="#intro">Intro</a></li>
@@ -129,7 +143,7 @@ class App extends Component {
                 <li><a href="#contact">Contact</a></li>
               </Scrollspy>
             </nav>
-            <a href="https://app.monstercampaigns.com/c/upogpb2fnup7n4xqbawj/" target="_blank" className="contact-button smallblue">$100 Product Review</a>
+            <a href="https://app.monstercampaigns.com/c/yismlgmgd8uw9zenwo7c/" target="_blank" rel="noopener noreferrer" className="contact-button smallred">Review My App...</a>
             </Fade>
           </div>
         </div>
@@ -143,7 +157,7 @@ class App extends Component {
           </Col>
           <Col md={{ span: 6, order: 1 }} className="my-auto text-left">
             <h2 className="tiempos-semi desktop" style={{marginTop: 33}}><b>A Couple Examples…</b></h2>
-            <p className="description"><span>Back in 2010 Google made an additional<span className="highlighter"><b> $200 Million in a year </b></span>just by tweaking the color of their search result links by one shade of blue. That’s it! Turns out people subconsciously preferred clicking on more of a purplish-blue vs a greenish-blue. Who knew?</span></p>
+            <p className="description"><span>Did you know Google made an additional<span className="highlighter"><b> $200 Million in a year </b></span>just by tweaking the color of their search result links by one shade of blue? That’s it! Turns out people subconsciously preferred clicking on a purplish-blue vs a greenish-blue. Who knew?</span></p>
           </Col>
         </Row>
         <Row className="align-middle" style={{marginTop: 108}}>
@@ -436,13 +450,16 @@ class App extends Component {
               </Row>
               <Row className="contact-boxes text-center">
                 <Col md className="contact-1">
-                    <h3 className="mx-auto">I'd like the $100 product review.<span className="vertical-spacer"><br />&nbsp;</span></h3>
-                    <a href="https://app.monstercampaigns.com/c/upogpb2fnup7n4xqbawj/" target="_blank" className="mx-auto contact-button smallred">
+                    <h3 className="mx-auto">I'd like the product review.</h3>
+                    <a href="https://app.monstercampaigns.com/c/yismlgmgd8uw9zenwo7c/" target="_blank" rel="noopener noreferrer" className="mx-auto contact-button smallred desktop" style={{display: "inline-block"}}>
+                      Yes :)
+                    </a>
+                    <a href="https://calendly.com/smalltweaks/productreview" target="_blank" rel="noopener noreferrer" className="mx-auto contact-button smallred mobile" style={{display: "inline-block"}}>
                       Yes :)
                     </a>
                 </Col>
                 <Col md className="contact-2">
-                  {!showHideContact1 && <h3 className="mx-auto">I have a question.</h3>}
+                  {!showHideContact1 && <h3 className="mx-auto">I have a question. <span className="desktop"><br></br>&nbsp;</span></h3>}
                   {!showHideContact1 && 
                   <button className="mx-auto contact-button smallgold" onClick={() => this.hideComponent("showHideContact1")}>
                     Yes :)
@@ -450,11 +467,11 @@ class App extends Component {
                   {showHideContact1 && <Contact1 />}
                 </Col>
                 <Col md className="contact-3">
-                  {!showHideContact3 && <h3 className="mx-auto">Deep down, I just want to be happy.</h3>}
-                  {!showHideContact3 && <button className="mx-auto contact-button smallblue" onClick={() => this.hideComponent("showHideContact3")}>
+                  {!showHideContact2 && <h3 className="mx-auto">I'd like to chat with someone.</h3>}
+                  {!showHideContact2 && <button className="mx-auto contact-button smallblue" onClick={() => this.hideComponent("showHideContact2")}>
                     Yes :)
                   </button>}
-                  {showHideContact3 && <ContactForm3 />}
+                  {showHideContact2 && <ContactForm2 />}
                 </Col>
               </Row>
           </Container>

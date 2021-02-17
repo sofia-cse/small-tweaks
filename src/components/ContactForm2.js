@@ -73,7 +73,7 @@ refreshComponent(name,) {
         <h3 className="mx-auto"><b>I'd like to chat with someone.</b></h3>
         { !done && <div>
         <form id="contactForm1" className="contact_form text-left" onSubmit={this.handleSubmit}>
-          <label htmlFor="message" className="checkbox">I'd like to chat about...</label><br />
+          <label htmlFor="message" className="checkbox" style={{marginLeft: 0}}>I want to chat about...</label><br />
           <textarea name="message" id="message" onChange={this.handleChange.message} value={this.state.message} style={{width: "100%"}}></textarea><br />
           {showHideContactForm1 && 
           
@@ -91,7 +91,7 @@ refreshComponent(name,) {
         }
         </form>
         <div className="text-center mx-auto">
-        {!showHideContactForm1 && <button className="mx-auto contact-button smallred" onClick={() => this.hideComponent("showHideContactForm1")}>
+        {!showHideContactForm1 && <button className="mx-auto contact-button smallblue" onClick={() => this.hideComponent("showHideContactForm1")}>
             Next
         </button>}
         <br />
