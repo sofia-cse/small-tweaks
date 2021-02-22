@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba8d2429.chunk.css",
+    "main.css": "/static/css/main.91df987f.chunk.css",
     "main.js": "/static/js/main.30e71baa.chunk.js",
     "main.js.map": "/static/js/main.30e71baa.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bc0978c8.js",
@@ -9,10 +9,10 @@
     "static/js/2.387d1646.chunk.js": "/static/js/2.387d1646.chunk.js",
     "static/js/2.387d1646.chunk.js.map": "/static/js/2.387d1646.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e94315b534111faad3003f75be2893b3.js": "/precache-manifest.e94315b534111faad3003f75be2893b3.js",
+    "precache-manifest.67ee1b543e823fe841154c1ba48e4d70.js": "/precache-manifest.67ee1b543e823fe841154c1ba48e4d70.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.ba8d2429.chunk.css.map": "/static/css/main.ba8d2429.chunk.css.map",
+    "static/css/main.91df987f.chunk.css.map": "/static/css/main.91df987f.chunk.css.map",
     "static/js/2.387d1646.chunk.js.LICENSE.txt": "/static/js/2.387d1646.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/tiempos-text-web-regular.c868d69a.woff",
     "static/media/Phillip@2x.png": "/static/media/Phillip@2x.d5cab51b.png",
@@ -50,7 +50,7 @@
     "static/js/runtime-main.bc0978c8.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.387d1646.chunk.js",
-    "static/css/main.ba8d2429.chunk.css",
+    "static/css/main.91df987f.chunk.css",
     "static/js/main.30e71baa.chunk.js"
   ]
 }
