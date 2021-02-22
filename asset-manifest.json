@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.c36cc368.chunk.css",
-    "main.js": "/static/js/main.81e15d5e.chunk.js",
-    "main.js.map": "/static/js/main.81e15d5e.chunk.js.map",
+    "main.css": "/static/css/main.ac93f519.chunk.css",
+    "main.js": "/static/js/main.9e0cc9cf.chunk.js",
+    "main.js.map": "/static/js/main.9e0cc9cf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bc0978c8.js",
     "runtime-main.js.map": "/static/js/runtime-main.bc0978c8.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.02ab68a8.chunk.js": "/static/js/2.02ab68a8.chunk.js",
-    "static/js/2.02ab68a8.chunk.js.map": "/static/js/2.02ab68a8.chunk.js.map",
+    "static/js/2.387d1646.chunk.js": "/static/js/2.387d1646.chunk.js",
+    "static/js/2.387d1646.chunk.js.map": "/static/js/2.387d1646.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.662527be6f7b70836743bf2bf6b06268.js": "/precache-manifest.662527be6f7b70836743bf2bf6b06268.js",
+    "precache-manifest.0f92f1c4008e38b0b5713f7987fdf0b1.js": "/precache-manifest.0f92f1c4008e38b0b5713f7987fdf0b1.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.c36cc368.chunk.css.map": "/static/css/main.c36cc368.chunk.css.map",
-    "static/js/2.02ab68a8.chunk.js.LICENSE.txt": "/static/js/2.02ab68a8.chunk.js.LICENSE.txt",
+    "static/css/main.ac93f519.chunk.css.map": "/static/css/main.ac93f519.chunk.css.map",
+    "static/js/2.387d1646.chunk.js.LICENSE.txt": "/static/js/2.387d1646.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/tiempos-text-web-regular.c868d69a.woff",
     "static/media/Phillip@2x.png": "/static/media/Phillip@2x.d5cab51b.png",
+    "static/media/accordion-arrow-down.svg": "/static/media/accordion-arrow-down.f0c83168.svg",
+    "static/media/accordion-arrow-up.svg": "/static/media/accordion-arrow-up.c652598b.svg",
     "static/media/after-text@2x.png": "/static/media/after-text@2x.b026059b.png",
     "static/media/avinew-after@2x.png": "/static/media/avinew-after@2x.7b1af022.png",
     "static/media/avinew-before@2x.png": "/static/media/avinew-before@2x.b4348c9d.png",
@@ -47,8 +49,8 @@
   "entrypoints": [
     "static/js/runtime-main.bc0978c8.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.02ab68a8.chunk.js",
-    "static/css/main.c36cc368.chunk.css",
-    "static/js/main.81e15d5e.chunk.js"
+    "static/js/2.387d1646.chunk.js",
+    "static/css/main.ac93f519.chunk.css",
+    "static/js/main.9e0cc9cf.chunk.js"
   ]
 }
