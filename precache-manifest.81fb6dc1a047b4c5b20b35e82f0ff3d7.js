@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "261212702bf7edefc742732c8e0727cf",
+    "revision": "9d22a5bfca2cc0ccb8d0e348d44776cb",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "3b05e57c65c95bc480db",
-    "url": "/static/css/main.96c18b5c.chunk.css"
+    "revision": "cfd89d298ebfd919e1c5",
+    "url": "/static/css/main.edf83220.chunk.css"
   },
   {
     "revision": "4843698ff3723e30d866",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.02e86fc0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3b05e57c65c95bc480db",
-    "url": "/static/js/main.0a9fac19.chunk.js"
+    "revision": "cfd89d298ebfd919e1c5",
+    "url": "/static/js/main.22b432af.chunk.js"
   },
   {
     "revision": "dbadce89e3fd37d9645c",
@@ -234,6 +234,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8230269c714416b40bacfd6ac57d369a",
     "url": "/static/media/n2uitive@2x.8230269c.png"
+  },
+  {
+    "revision": "bf3ad6b1e97846f76d516c08a9ec9a33",
+    "url": "/static/media/notched-border.bf3ad6b1.svg"
   },
   {
     "revision": "45efab51e1a810894d8a2ceda76f1278",

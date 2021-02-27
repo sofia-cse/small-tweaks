@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.96c18b5c.chunk.css",
-    "main.js": "/static/js/main.0a9fac19.chunk.js",
-    "main.js.map": "/static/js/main.0a9fac19.chunk.js.map",
+    "main.css": "/static/css/main.edf83220.chunk.css",
+    "main.js": "/static/js/main.22b432af.chunk.js",
+    "main.js.map": "/static/js/main.22b432af.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bc0978c8.js",
     "runtime-main.js.map": "/static/js/runtime-main.bc0978c8.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
     "static/js/2.02e86fc0.chunk.js": "/static/js/2.02e86fc0.chunk.js",
     "static/js/2.02e86fc0.chunk.js.map": "/static/js/2.02e86fc0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c4f806b5d039485f61e50267d48bec06.js": "/precache-manifest.c4f806b5d039485f61e50267d48bec06.js",
+    "precache-manifest.81fb6dc1a047b4c5b20b35e82f0ff3d7.js": "/precache-manifest.81fb6dc1a047b4c5b20b35e82f0ff3d7.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.96c18b5c.chunk.css.map": "/static/css/main.96c18b5c.chunk.css.map",
+    "static/css/main.edf83220.chunk.css.map": "/static/css/main.edf83220.chunk.css.map",
     "static/js/2.02e86fc0.chunk.js.LICENSE.txt": "/static/js/2.02e86fc0.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/tiempos-text-web-regular.c868d69a.woff",
     "static/media/Phillip@2x.png": "/static/media/Phillip@2x.d5cab51b.png",
@@ -40,6 +40,7 @@
     "static/media/n2uitive-after@2x.png": "/static/media/n2uitive-after@2x.6d01d6f3.png",
     "static/media/n2uitive-before@2x.png": "/static/media/n2uitive-before@2x.60a61372.png",
     "static/media/n2uitive@2x.png": "/static/media/n2uitive@2x.8230269c.png",
+    "static/media/notched-border.svg": "/static/media/notched-border.bf3ad6b1.svg",
     "static/media/price-squeeze@2x.png": "/static/media/price-squeeze@2x.45efab51.png",
     "static/media/prototype-illustration@2x.png": "/static/media/prototype-illustration@2x.5308446b.png",
     "static/media/research-illustration@2x.png": "/static/media/research-illustration@2x.3c2f2274.png",
@@ -52,7 +53,7 @@
     "static/js/runtime-main.bc0978c8.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.02e86fc0.chunk.js",
-    "static/css/main.96c18b5c.chunk.css",
-    "static/js/main.0a9fac19.chunk.js"
+    "static/css/main.edf83220.chunk.css",
+    "static/js/main.22b432af.chunk.js"
   ]
 }
