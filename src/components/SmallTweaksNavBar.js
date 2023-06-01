@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import logo from '../img/logo.svg';
+import logo from '../img/logo@2x.png';
 import menuIcon from '../img/menu-icon@2x.png'
 import closeIcon from '../img/close-icon@2x.png';
-import Fade from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 
 class SmallTweaksNavBar extends Component {
 
@@ -34,12 +34,19 @@ class SmallTweaksNavBar extends Component {
     return ( 
       <div className="header">
           <div className="brand">
-            <div className="text-logo"><img src={logo} alt="logo" width={194} /></div>
+            <div className="text-logo"><a href="#hero"><img src={logo} alt="logo" width={194} /></a></div>
             <div className="tagline"><p>Get the most out of what you've got.</p></div>
           </div>
-          <div className="menu-button">
-         <Fade when={this.props.dataFromParent}><a href="https://app.monstercampaigns.com/c/yismlgmgd8uw9zenwo7c/" target="_blank" rel="noopener noreferrer" className="contact-button smallred my-auto desktop" style={{marginRight: 27}}>Review My App...</a></Fade>
-            <button className="menu-button p-0" onClick={() => this.hideComponent("showHideSmallTweaksNav")}>
+          <div className="main-nav">
+            <div className="desktop main-menu">
+              <a href="#intro" data-text="What We Do">What We Do</a>
+              <a href="#howitworks" data-text="How It Works">How It Works</a>
+              <a href="#testimonials" data-text="Testimonials">Testimonials</a>
+              <a href="#faq" data-text="FAQs">FAQs</a>
+              <a href="#contact" data-text="Contact">Contact</a>
+            </div>
+            <Fade when={this.props.dataFromParent} duration={2000} delay={150}><a href="https://app.monstercampaigns.com/c/yismlgmgd8uw9zenwo7c/" target="_blank" rel="noopener noreferrer" className="contact-button smallblue my-auto">Request Your UX Audit</a></Fade>
+            <button className="menu-button laptop-menu p-0" onClick={() => this.hideComponent("showHideSmallTweaksNav")}>
               <img src={menuIcon} alt="menu icon" className="my-auto" width={18} style={{marginRight: 9}} />
               <span className="menu-label">Menu</span>
             </button>
@@ -49,10 +56,10 @@ class SmallTweaksNavBar extends Component {
               <img src={closeIcon} alt="menu icon" width={18} />
             </button>
           <ul>
-            <li><a href="#examples">Examples</a></li>
-            <li><a href="#comparisons">Before & Afters</a></li>
+            <li><a href="#intro">What We Do</a></li>
             <li><a href="#howitworks">How It Works</a></li>
             <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#faq">FAQ</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>}

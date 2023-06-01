@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import refreshIcon from '../img/refresh-icon@2x.png';
+import greyLine from '../img/grey-line.svg';
 
-class ContactForm2 extends Component {
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+class ContactForm extends Component {
   
   constructor() {
     super();
@@ -12,33 +16,28 @@ class ContactForm2 extends Component {
       phone: this.handleChange.bind(this, 'phone')
     }
     this.state = {
-      showHideContactForm1: false,
       done: false,
       message: '',
       name: '',
       email: '',
       phone: '',
     };
-    this.hideComponent = this.hideComponent.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  hideComponent(name,) {
-    console.log(name);
-    switch (name) {
-      case "showHideContactForm1":
-        this.setState({ showHideContactForm1: !this.state.showHideContactForm1 });
-        break;
-      default:
-        this.setState(null);
-    }
-  }
+
 
 refreshComponent(name,) {
     console.log(name);
     switch (name) {
       case "refreshContactForm":
         this.setState({ done: !this.state.done });
+        this.setState({
+          message: '',
+          name: '',
+          email: '',
+          phone: '',
+        });
         break;
       default:
         this.setState(null);
@@ -67,36 +66,31 @@ refreshComponent(name,) {
     }
 
   render() {
-    const { showHideContactForm1 } = this.state;
     const { done } = this.state;
     return ( 
-    <div>
-        <h3 className="mx-auto"><b>I'd like to chat with someone.</b></h3>
+    <div className="contact-form">
+        <h3 className="mx-auto"><b>Let's Chat</b></h3>
+        <img src={greyLine} alt="separator" width={96} style={{marginBottom: 20}} />
         { !done && <div>
         <form id="contactForm1" className="contact_form text-left" onSubmit={this.handleSubmit}>
-          <label htmlFor="message" className="checkbox">I'd like to chat about...</label><br />
-          <textarea name="message" id="message" onChange={this.handleChange.message} value={this.state.message} style={{width: "100%"}}></textarea><br />
-          {showHideContactForm1 && 
-          
-        <div>
-          <label htmlFor="name" required>Your Name</label><br />
-          <input type="text" id="name" name="name" onChange={this.handleChange.name} value={this.state.name} style={{width: "100%"}} /><br />
-          <label htmlFor="email">Work Email</label><br />
-          <input type="email" id="email" name="email" onChange={this.handleChange.email} value={this.state.email} required style={{width: "100%"}} /><br />
-          <label htmlFor="phone">Phone</label><br />
-          <input type="tel" id="phone" name="phone" onChange={this.handleChange.phone} value={this.state.phone} style={{width: "100%"}} /><br />
-          <div className="text-center">
-            <input type="submit" className="mx-auto contact-button" value="Send" />
-          </div>
-        </div>  
-        }
+          <Row>
+            <Col md>
+              <label htmlFor="message" className="checkbox">Question/Comment</label><br />
+              <textarea name="message" id="message" onChange={this.handleChange.message} value={this.state.message}></textarea><br />
+            </Col>
+            <Col md>
+              <label htmlFor="name" required>Your Name</label><br />
+              <input type="text" id="name" name="name" onChange={this.handleChange.name} value={this.state.name} style={{width: "100%"}} /><br />
+              <label htmlFor="email">Work Email</label><br />
+              <input type="email" id="email" name="email" onChange={this.handleChange.email} value={this.state.email} required style={{width: "100%"}} /><br />
+              <label htmlFor="phone">Phone</label><br />
+              <input type="tel" id="phone" name="phone" onChange={this.handleChange.phone} value={this.state.phone} style={{width: "100%"}} /><br />
+            </Col>
+          </Row>
+          <Row style={{marginTop: 31}}>
+            <input type="submit" className="mx-auto contact-button smallblue" value="Send" />
+          </Row>
         </form>
-        <div className="text-center mx-auto">
-        {!showHideContactForm1 && <button className="mx-auto contact-button" onClick={() => this.hideComponent("showHideContactForm1")}>
-            Next
-        </button>}
-        <br />
-        </div>
       </div>}
       { done && 
         <div>
@@ -109,4 +103,4 @@ refreshComponent(name,) {
   }
 }
 
-export default ContactForm2;
+export default ContactForm;
