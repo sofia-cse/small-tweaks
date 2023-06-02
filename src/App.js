@@ -318,7 +318,7 @@ class App extends Component {
             </Row>
             <Row>
               <Col className="text-center">
-              <p className="">Fireside is an application to explore the relationships in your life, with yourself and others. We identified an opportunity to tweak their communication system from a focus on text,<span className="highlighter-yellow"> to a focus on people.</span></p>
+              <p className="">Fireside is a platform to explore the relationships in your life, with yourself and others. We identified an opportunity to tweak their communication system from a focus on text,<span className="highlighter-yellow"> to a focus on people.</span></p>
               </Col>
             </Row>
             <Row>
