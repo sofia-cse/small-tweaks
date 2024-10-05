@@ -58,7 +58,7 @@ refreshComponent(name,) {
 
   
     sendFeedback (templateId, variables) {
-      window.emailjs.send("mailgun", 'template_IClyReLt', variables, "user_DAxRhCUOWyZbMpVlmpKOk").then(res => {
+      window.emailjs.send("gmail", 'template_IClyReLt', variables, "user_DAxRhCUOWyZbMpVlmpKOk").then(res => {
         alert('Email successfully sent!');
       })
       // Handle errors here however you like, or use a React error boundary
