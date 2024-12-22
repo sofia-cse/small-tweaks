@@ -49,9 +49,7 @@ import avinewOverlayX from './img/avinew-overlay-x@2x.png';
 import avinewOverlayTextTrust from './img/avinew-overlay-text-trust@2x.png';
 import avinewOverlaySquare from './img/avinew-overlay-square@2x.png';
 import avinewOverlayTextTooSoon from './img/avinew-overlay-text-too-soon@2x.png';
-import avinewMarkup from './img/Markup-Avinew-white-background.gif'
 
-//import stoneStrickland from './img/stone-strickland@2x.png';
 import './App.css';
 import SmallTweaksNavBar from './components/SmallTweaksNavBar';
 import Container from 'react-bootstrap/Container';
@@ -154,7 +152,6 @@ class App extends Component {
                 <div className="text-center ml-auto overflowing">
                   <img src={beforeText} width={118} alt="Before" className="comparison-text" />
                   <div>
-                   {/*<img src={avinewMarkup} alt="avinew-markup" id="avinew-markup" width={384} />*/}
                     <img src={avinewBefore} alt="avinew-comparison-before" width={404} className="overflowing before" />
                     <div className="desktop">
                     <Fade cascade fraction={0.2} duration={1000} damping={1.2}>
@@ -483,25 +480,6 @@ class App extends Component {
                 </div>
               </Col>
             </Row>
-            
-            {/* <Row>
-              <Col className="text-left">
-                <div className="testimonial stone">
-                  <p className="m-0">
-                  “Seeing the data is what did it for us. We didn’t have the a lot of capital to spend initially, so <b>removing all the guesswork out of the process</b> was invaluable to say the least. Definitely planning on using ST a lot in the future to optimize our app even more.”
-                  </p>
-                  </div>
-                  <div className="stone-arrow">
-                  </div>
-                  <div className="d-inline-block shoutout">
-                  <img src={stoneStrickland} alt="Stone Strickland" width={68} className="dave"/>
-                  <div className="d-inline-block align-middle my-auto">
-                  <h5 className="my-0 client-name">Stone Strickland</h5>
-                  <span className="client-title">Chief Product Officer <span className="separator">•</span> fireside</span>
-                </div>
-                </div>
-              </Col>
-            </Row> */}
           </Container>
         </div>
         <div id="faq">
@@ -631,32 +609,6 @@ class App extends Component {
                     <span className="d-block final-upsell" style={{color: '#A7B6C1'}}>(Takes 6 Seconds)</span>
                 </Col>
               </Row>
-              {/*<Row className="contact-boxes text-center">
-                <Col md className="contact-1">
-                    <h3 className="mx-auto">I'd like the product review.</h3>
-                    <a href="https://app.monstercampaigns.com/c/yismlgmgd8uw9zenwo7c/" target="_blank" rel="noopener noreferrer" className="mx-auto contact-button smallred desktop" style={{display: "inline-block"}}>
-                      Yes :)
-                    </a>
-                    <a href="https://calendly.com/smalltweaks/productreview" target="_blank" rel="noopener noreferrer" className="mx-auto contact-button smallred mobile" style={{display: "inline-block"}}>
-                      Yes :)
-                    </a>
-                </Col>
-                <Col md className="contact-2">
-                  {!showHideContact1 && <h3 className="mx-auto">I have a question. <span className="desktop"><br></br>&nbsp;</span></h3>}
-                  {!showHideContact1 && 
-                  <button className="mx-auto contact-button smallgold" onClick={() => this.hideComponent("showHideContact1")}>
-                    Yes :)
-                  </button>}
-                  {showHideContact1 && <Contact1 />}
-                </Col>
-                <Col md className="contact-3">
-                  {!showHideContact2 && <h3 className="mx-auto">I'd like to chat with someone.</h3>}
-                  {!showHideContact2 && <button className="mx-auto contact-button smallblue" onClick={() => this.hideComponent("showHideContact2")}>
-                    Yes :)
-                  </button>}
-                  {showHideContact2 && <ContactForm2 />}
-                </Col>
-                  </Row>*/}
                   <ContactForm />
           </Container>
         <div>
