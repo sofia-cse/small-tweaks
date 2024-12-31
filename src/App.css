@@ -202,38 +202,38 @@ body p {
 
 #avinew-overlay-circle {
   position: absolute;
-  top: 26%;
-  left: 20%;
+  top: 20%;
+  left: 6%;
 }
 
 #avinew-overlay-text-why {
   position: absolute;
-  top: 44%;
-  left: 23%;
+  top: 40%;
+  left: 13%;
 }
 
 #avinew-overlay-x {
   position: absolute;
-  top: 52%;
-  left: 26%;
+  top: 46%;
+  left: 10%;
 }
 
 #avinew-overlay-text-trust {
   position: absolute;
-  top: 61%;
+  top: 60%;
   right: 10%;
 }
 
 #avinew-overlay-square {
   position: absolute;
-  top: 81%;
-  left: 41%;
+  top: 80%;
+  left: 32%;
 }
 
 #avinew-overlay-text-too-soon {
   position: absolute;
   top: 92%;
-  left: 50%;
+  left: 36%;
 }
 
 #avinew-markup {
@@ -606,7 +606,7 @@ img {
 #hero h1 {
   font-family: 'Graphik';
   font-weight: bold;
-  font-size: 67px;
+  font-size: 66px;
   line-height: 80px;
   margin-bottom: 46.8px;
   margin-top: 36px;
@@ -1058,7 +1058,8 @@ img.stone {
   background-color: #fff !important;
   font-size: 22px;
   padding: 0 35px !important;
-  border-bottom: none !important
+  border-bottom: none !important;
+  border-radius: 10px !important
 }
 
 .custom-toggle {

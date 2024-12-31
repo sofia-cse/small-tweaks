@@ -57,7 +57,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
-import { useAccordionToggle } from 'react-bootstrap/AccordionToggle';
+import { useAccordionButton } from 'react-bootstrap/AccordionButton';
 import AccordionContext from 'react-bootstrap/AccordionContext';
 import ContactForm from './components/ContactForm';
 
@@ -67,7 +67,7 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 function ContextAwareToggle ({ children, eventKey, callback }) {
   const currentEventKey = React.useContext(AccordionContext);
 
-  const decoratedOnClick = useAccordionToggle(
+  const decoratedOnClick = useAccordionButton(
     eventKey,
     () => callback && callback(eventKey),
   );
@@ -148,10 +148,10 @@ class App extends Component {
         <div className="case-study">
           <Container>
             <Row>
-              <Col md className="text-center">
+              <Col md className="text-center" style={{justifyItems: "end"}}>
                 <div className="text-center ml-auto overflowing">
                   <img src={beforeText} width={118} alt="Before" className="comparison-text" />
-                  <div>
+                  <div style={{position: "relative"}}>
                     <img src={avinewBefore} alt="avinew-comparison-before" width={404} className="overflowing before" />
                     <div className="desktop">
                     <Fade cascade fraction={0.2} duration={1000} damping={1.2}>
@@ -181,7 +181,7 @@ class App extends Component {
             </Row>
             <Row>
               <Col className="roi text-center">
-              <h3 className="mx-auto"><b>These subtle tweaks reversed potential losses by an astonishing <div className="circled-avinew"><span className="avinew-roi">80%</span></div></b></h3>
+              <h3 className="mx-auto mt-3"><b>These subtle tweaks reversed potential losses by an astonishing <div className="circled-avinew"><span className="avinew-roi">80%</span></div></b></h3>
               </Col>
             </Row>
           </Container>
@@ -276,7 +276,7 @@ class App extends Component {
             </Row>
             <Row>
               <Col className="roi text-center" style={{marginBottom: 108}}>
-              <h3 className="mx-auto"><b>This system simplification increased user satisfaction by <div className="circled-n2uitive"><span className="n2uitive-roi">57%</span></div></b></h3>
+              <h3 className="mx-auto mt-3"><b>This system simplification increased user satisfaction by <div className="circled-n2uitive"><span className="n2uitive-roi">57%</span></div></b></h3>
               </Col>
             </Row>
           </Container>
@@ -320,7 +320,7 @@ class App extends Component {
             </Row>
             <Row>
               <Col className="roi text-center">
-              <h3 className="mx-auto"><b>These tweaks in UI netted a <div className="circled-fireside"><span className="fireside-roi">17%</span></div> increase in user engagement.</b></h3>
+              <h3 className="mx-auto mt-3"><b>These tweaks in UI netted a <div className="circled-fireside"><span className="fireside-roi">17%</span></div> increase in user engagement.</b></h3>
               </Col>
             </Row>
           </Container>
@@ -330,7 +330,7 @@ class App extends Component {
         <Container className="how-it-works" id="howitworks">
           <Row className="text-center">
             <Col className="how-it-title">
-            <h2>How It Works</h2>
+            <h2 className='mt-3'>How It Works</h2>
             <img src={howItWorks} alt="underline" width={96} />
             </Col>
           </Row>
