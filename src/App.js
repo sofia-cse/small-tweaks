@@ -227,7 +227,7 @@ class App extends Component {
               <img src={uxAudit} width={360} alt="ux audit"/>
             </Col>
           </Row>
-          <Row className="tweaked-here">
+          <Row className="tweaked-here mt-5">
             <Col  md={{span: 7, order: 2}} className="d-flex">
               <p className="description my-auto">We then design, prototype, and test <b>UX optimizations</b> and <b>system simplifications</b> that will improve your web or mobile app’s performance, better satisfy your end-users, and<span className="highlighter-yellow"> dramatically boost your ROI.</span>
               </p>
@@ -330,7 +330,7 @@ class App extends Component {
         <Container className="how-it-works" id="howitworks">
           <Row className="text-center">
             <Col className="how-it-title">
-            <h2 className='mt-3'>How It Works</h2>
+            <h2 className='mt-5'>How It Works</h2>
             <img src={howItWorks} alt="underline" width={96} />
             </Col>
           </Row>
