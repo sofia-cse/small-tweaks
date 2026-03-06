@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Graphik';
+  src: url('/src/typography/Graphik-Bold.woff2') format('woff2'),
+      url('/src/typography/Graphik-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  line-height: 1.6;
+  color: #333;
+  font-family: 'Inter', -apple-system, sans-serif;
+  background-color: #fff;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  font-family:  Graphik;
+}
+
+.container h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #0c0c0c; /* Subtle color shift for headers */
+}
+
+.container p {
+  margin-bottom: 1.2rem;
+}
+
+/* Adds a nice touch for the 'Last Updated' date if you use it */
+.container .date {
+  color: #222629;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+

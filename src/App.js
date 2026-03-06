@@ -49,6 +49,7 @@ import avinewOverlayX from './img/avinew-overlay-x@2x.png';
 import avinewOverlayTextTrust from './img/avinew-overlay-text-trust@2x.png';
 import avinewOverlaySquare from './img/avinew-overlay-square@2x.png';
 import avinewOverlayTextTooSoon from './img/avinew-overlay-text-too-soon@2x.png';
+import { Link } from "react-router-dom";
 
 import './App.css';
 import SmallTweaksNavBar from './components/SmallTweaksNavBar';
@@ -617,10 +618,16 @@ class App extends Component {
       <div id="footer">
         <Container>
           <Row style={{marginBottom: 21}}>
+
             <Col className="text-center">
               <a href="https://www.linkedin.com/company/smalltweaks/"  target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="linkedin" width={35} className="d-inline" /></a>
               <a href="https://www.facebook.com/smalltweaks/"  target="_blank" rel="noopener noreferrer"><img src={facebook} alt="facebook" width={35} className="d-inline" style={{marginLeft: 17, marginRight: 17}} /></a>
               <a href="https://www.instagram.com/smalltweaks/"  target="_blank" rel="noopener noreferrer"><img src={instagram} alt="instagram" width={35} className="d-inline" /></a>
+            </Col>
+          </Row>
+          <Row>
+            <Col className="text-center">
+            <span className="georgia"><Link to="/privacy">Privacy Policy</Link></span>
             </Col>
           </Row>
           <Row>
