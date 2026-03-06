@@ -96,7 +96,7 @@ function PrivacyPolicy() {
             <p>For questions, rights requests, or concerns:</p>
             <p><strong>Small Tweaks</strong><br />
             Email: <a href="mailto:hello@smalltweaks.co">hello@smalltweaks.co</a><br/>
-            Website: <a href="https://smalltweaks.co" target="_blank" rel="noreferrer">smalltweaks.co</a></p>
+            Website: <a href="https://smalltweaks.co">smalltweaks.co</a></p>
         </div>
         </div>
     </section>
