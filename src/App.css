@@ -529,6 +529,19 @@ div.main-nav {
   line-height: 35px;
 }
 
+.case-study-text
+ {
+    color: #47626C;
+    letter-spacing: -0.7px;
+    margin-bottom: 60px;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.gray-link a{
+  color: #8294A0;
+}
+
 .description {
   font-size: 22px;
   letter-spacing: -0.58px;

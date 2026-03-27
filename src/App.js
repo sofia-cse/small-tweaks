@@ -146,6 +146,11 @@ class App extends Component {
             <h1 className="mx-auto">Your application is losing money.<br /><span className="highlighter-yellow">&nbsp;Do you know why?&nbsp;</span></h1>
           </Row>
         </Container>
+        <Container>
+          <Col className="text-center">
+              <p className="case-study-text">We spot the invisible leaks costing you money, then implement small,<br></br>smart changes that deliver massive, measurable wins.</p>
+            </Col>
+        </Container>
         <div className="case-study">
           <Container>
             <Row>
@@ -221,7 +226,7 @@ class App extends Component {
           </Row>
           <Row className="align-middle">
             <Col md={{span: 7, order: 1}} className="d-flex">
-              <p  className="description text-right my-auto ml-auto" style={{width: 555}}><b>We’re a Research & Development firm</b> specialized in finding small tweaks<span className="highlighter-yellow"> that make the biggest impact.</span>  First, we start with <span className="ux-auditing">UX auditing</span> to help businesses (large or small) <b>expose underperformance</b> in their web or mobile applications.
+              <p className="description text-right my-auto ml-auto" style={{width: 555, textAlign: 'right'}}><b>We’re a Research & Development firm</b> specialized in finding small tweaks<span className="highlighter-yellow"> that make the biggest impact.</span>  First, we start with <span className="ux-auditing">UX auditing</span> to help businesses (large or small) <b>expose underperformance</b> in their web or mobile applications.
               </p>
             </Col>
             <Col md={{span: 5, order: 2}} className="text-center align-middle my-auto">
@@ -331,7 +336,7 @@ class App extends Component {
         <Container className="how-it-works" id="howitworks">
           <Row className="text-center">
             <Col className="how-it-title">
-            <h2 className='mt-5'>How It Works</h2>
+            <h2 className='mt-5'style={{fontWeight: 900}} >How It Works</h2>
             <img src={howItWorks} alt="underline" width={96} />
             </Col>
           </Row>
@@ -627,12 +632,8 @@ class App extends Component {
           </Row>
           <Row>
             <Col className="text-center">
-            <span className="georgia"><Link to="/privacy">Privacy Policy</Link></span>
-            </Col>
-          </Row>
-          <Row>
-            <Col className="text-center">
-              <span className="georgia">Copyright © {new Date().getFullYear()} <b>small<i>tweaks</i></b>. <span style={{whiteSpace: "nowrap"}}>All rights reserved.</span></span>
+              <span className="georgia">Copyright © {new Date().getFullYear()} <b>small<i>tweaks</i></b>. <span style={{whiteSpace: "nowrap"}}>All rights reserved. <span className="georgia gray-link"><Link to="/privacy">Privacy Policy</Link></span></span></span>
+              
             </Col>
           </Row>
         </Container>
